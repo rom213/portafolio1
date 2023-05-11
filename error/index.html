@@ -1,0 +1,109 @@
+<div className="secMobile3">
+    <h3 className="headerProy">PROYECTS</h3>
+    <h2 className="titleProyectFront">Frontend projects</h2>
+    <div className="proyect1">
+      <a
+        className="linkEcomeTec"
+        href="https://tiendatecnologica.netlify.app/#/"
+      >
+        Ecomerse of technology store
+      </a>
+      <div>
+        Se utilizó la tecnología de React con TypeScript para desarrollar un
+        diseño intuitivo y atractivo con el objetivo de que el usuario se
+        sienta cómodo. Se implementaron rutas y rutas protegidas para
+        usuarios logueados, y se gestionaron las bibliotecas de Redux,
+        Axios, Zustand y otras más. El proyecto aún está en desarrollo,
+        donde se está implementando React Query para el manejo de caché y se
+        está añadiendo capacidad de respuesta para dispositivos móviles.
+      </div>
+      <div className="contentall">
+        { scrollY > 700 && (
+          <div className="contentAnima">
+            <img className="ecomerTecno" src={imgenT} alt="" />
+            <div className="contentSkills">
+              <div className="skill">react Ts</div>
+              <div className="skill">redux</div>
+              <div className="skill">Zustand</div>
+              <div className="skill">Api</div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+
+    <div className="proyecto2">
+      <a className="linkEcomeTec" href="https://pokeedexsite.netlify.app/">
+        Pokedex
+      </a>
+      <div>
+        Se utilizó la API pública PokeAPI para obtener datos de Pokémon.
+        Para realizar las solicitudes HTTP a la API, se utilizó la
+        biblioteca Axios. Además, se trabajó con rutas y rutas protegidas
+        utilizando la biblioteca react-router-dom. Para gestionar el estado
+        de la aplicación, se utilizó la biblioteca Redux Toolkit. Se aplicó
+        la reutilización de código para mejorar la optimización de la
+        aplicación.
+      </div>
+      <div>
+        {scrollY > 1340 && (
+          <div>
+            <img className="imgPoke" src={`${pokedex1}`} alt="" />
+            <div className="contentSkills">
+              <div className="skill">react Js</div>
+              <div className="skill">redux</div>
+              <div className="skill">routes</div>
+              <div className="skill">Api</div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div className="contentProyec">
+    <br />
+    <br />
+    <h3>BackEnd</h3>
+    <br />
+      <a
+        className="linkEcomeTec"
+        href="https://pokeedexsite.netlify.app/"
+      >
+        AppRestaurant
+      </a>
+      <div>
+        El presente proyecto tiene como finalidad desarrollar una API
+        (Interfaz de Programación de Aplicaciones) para la gestión de
+        restaurantes en el backend. La API permitirá la administración
+        de reservaciones, usuarios, comidas, pedidos y comentarios sobre
+        la calidad del servicio en los restaurantes. Además, se brindará
+        la funcionalidad de crear usuarios, lo cual les otorgará
+        diversas acciones, como realizar pedidos y dejar comentarios.
+          <br />
+          Tecnologías utilizadas: Para la implementación de este
+          proyecto, se uso una base de datos mySql relaciones
+          entre tablas ,se ha hecho uso del framework Express, conocido
+          por su eficiencia y facilidad de uso en el desarrollo de
+          aplicaciones web y APIs. Asimismo, se ha aplicado el manejo de
+          errores para garantizar una experiencia fluida y confiable.
+          Las variables de entorno han sido utilizadas para configurar
+          aspectos específicos de la aplicación según el entorno de
+          despliegue. Por último, se ha implementado un sistema de
+          autenticación para garantizar la seguridad y la privacidad de
+          los usuarios.
+      </div>
+      {scrollY > 100 && (
+        <div className="contentAnima">
+          <img className="imgTecno" src={`${imgenT}`} alt="" />
+          <div className="contentSkills">
+            <div className="skill">nodejs</div>
+            <div className="skill">express</div>
+            <div className="skill">postman</div>
+            <div className="skill">mySql</div>
+          </div>
+        </div>
+      )}
+    </div>

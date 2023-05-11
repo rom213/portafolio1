@@ -6,7 +6,7 @@ import useWindowWidth from './hooks/windowWidth'
 function App() {
   const { width }=useWindowWidth()
   
-  if(width < 550) return <Moible />
+  if(width < 800) return <Moible />
 
   return <div>
     para pc
