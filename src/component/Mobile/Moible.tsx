@@ -61,21 +61,24 @@ const Moible = () => {
         </div>
       </div>
 
+
       <div className="contentProyects">
         <div className="headerAbout">
           <h2>Proyects</h2>
         </div>
-        <h3 className="titleproy">frontEnd</h3>
 
-        <div className="contententAllProyects">
           <div className="contentProyectsFront">
             <div className="contentProyec">
+              <br />
+              <br />
+                <h3 className="titleproy">frontEnd</h3>
               <a
                 className="linkEcomeTec"
                 href="https://tiendatecnologica.netlify.app/#/"
               >
                 Ecomerse of technology store
               </a>
+              <br />
               <div>
                 Se utilizó la tecnología de React con TypeScript para
                 desarrollar un diseño intuitivo y atractivo con el objetivo de
@@ -281,7 +284,7 @@ const Moible = () => {
               )}
             </div>
           </div>
-        </div>
+
       </div>
         <div>
           <br />
