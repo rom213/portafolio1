@@ -4,25 +4,36 @@ form{
     padding: 1rem;
     background-color: rgb(120, 114, 114);
     color: white;
-    height: 500px;
+    min-height: 300px;
 }
 
 input{
     height: 40px;
+    padding-left: 1rem;
+    font-size: 1.3rem;
 }
 textarea{
     font-size: 1.4rem;
     border-radius: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .btForm{
     height: 50px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .btForm:active{
     border: none;
 }
-a{
-    text-decoration: none;
+.OPACIOTI{
+    position: absolute;
+    opacity: 0;
+    width: 500px;
+    height: 40px;
 }

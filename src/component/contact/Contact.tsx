@@ -14,6 +14,15 @@ const Contact = () => {
     text: '',
   });
 
+
+const deleteSubmit=()=>{
+  setFormData({
+    name: '',
+    email: '',
+    text: '',
+  });
+}
+
   const handleChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = event.target;
     setFormData((prevData) => ({
@@ -31,6 +40,7 @@ const Contact = () => {
       text: '',
     });
   };
+
 
   return (
     <div>
@@ -65,9 +75,11 @@ const Contact = () => {
           cols={10}
           rows={5}
         ></textarea>
-        <button type="submit" className="btForm">
-          <a href="romarioariza@gmail.com">ENVIAR</a>
+        <button  type="submit" className="btForm">
+        <a className="OPACIOTI"    onClick={()=>deleteSubmit} href={`mailto:romarioariza@gmail.com?subject=${encodeURIComponent(formData.email)}&body=${encodeURIComponent(formData.name + '\n\n' + formData.text)}`}>enviar</a>
+        ENVIAR
         </button>
+       
       </form>
     </div>
   );
