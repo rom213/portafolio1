@@ -1,10 +1,10 @@
 form{
+    position: relative;
     display: flex;
     flex-direction: column;
     padding: 1rem;
     background-color: rgb(120, 114, 114);
     color: white;
-    min-height: 300px;
 }
 
 input{
@@ -26,14 +26,17 @@ textarea{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    width: 100%;
 }
 
 .btForm:active{
     border: none;
+
 }
 .OPACIOTI{
     position: absolute;
     opacity: 0;
-    width: 500px;
     height: 40px;
+    width: 100%;
 }
+

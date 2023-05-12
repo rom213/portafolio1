@@ -288,17 +288,27 @@ const Moible = () => {
             </div>
 
           </div>
+          <div className="contentDescription">
+            <Contact />
+          </div>
 
       </div>
-        <div>
+
+        <div className="contentAlldesCon">
           <br />
           <br />
           <Skils />
         </div>
 
-        <div className="contentDescription">
-            <Contact />
+
+        <div className="piedePagina">
+            <h1>Hecho con 🤎 </h1>
         </div>
+
+
+
+
+ 
     </div>
   );
 };

@@ -43,7 +43,7 @@ const deleteSubmit=()=>{
 
 
   return (
-    <div>
+
       <form onSubmit={handleSubmit}>
         <h3>contact</h3>
         <label htmlFor="name">
@@ -81,7 +81,6 @@ const deleteSubmit=()=>{
         </button>
        
       </form>
-    </div>
   );
 };
 
