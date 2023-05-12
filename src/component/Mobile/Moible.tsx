@@ -1,11 +1,13 @@
 import useScroll from "../../hooks/windowScroll";
 import "./style.css";
-import imgenT from "../../assets/tienedadetecnologia.png";
-import pokedex1 from "../../assets/pokedex1.png";
-import rick from "../../assets/rickandmorty.png";
-import restaurants from "../../assets/reRestaurant.png";
-import bisiRepair from "../../assets/bisicleta2.png";
-import imgBlog from "../../assets/blog.png"
+import imgenT from "../../assets/proyects/tienedadetecnologia.png";
+import pokedex1 from "../../assets/proyects/pokedex1.png";
+import rick from "../../assets/proyects/rickandmorty.png";
+import restaurants from "../../assets/proyects/reRestaurant.png";
+import bisiRepair from "../../assets/proyects/bisicleta2.png";
+import imgBlog from "../../assets/proyects/blog.png"
+import Skils from "../skills/Skils";
+
 
 
 const Moible = () => {
@@ -84,7 +86,7 @@ const Moible = () => {
                 para el manejo de caché y se está añadiendo capacidad de
                 respuesta para dispositivos móviles.
               </div>
-              {scrollY > 650 && (
+              {scrollY > 950 && (
                 <div className="contentAnima">
                   <img className="imgTecno" src={imgenT} alt="" />
                   <div className="contentSkills">
@@ -104,7 +106,7 @@ const Moible = () => {
               >
                 World Rick and Morty
               </a>
-              <div>
+              <div className="contentText">
                 En el proyecto se ha incorporado un buscador similar al de
                 Google, que despliega opciones de búsqueda a medida que se
                 escribe. Además, se ha agregado un modo noche sencillo para
@@ -113,7 +115,7 @@ const Moible = () => {
                 ha realizado el consumo de la API de Rick and Morty.
               </div>
 
-              {scrollY > 1100 && (
+              {scrollY > 1400 && (
                 <div className="contentAnima">
                   <img className="imgTecno" src={`${rick}`} alt="" />
                   <div className="contentSkills">
@@ -132,7 +134,7 @@ const Moible = () => {
               >
                 Pokedex
               </a>
-              <div>
+              <div className="contentText">
                 Se utilizó la API pública PokeAPI para obtener datos de Pokémon.
                 Para realizar las solicitudes HTTP a la API, se utilizó la
                 biblioteca Axios. Además, se trabajó con rutas y rutas
@@ -141,7 +143,7 @@ const Moible = () => {
                 Redux Toolkit. Se aplicó la reutilización de código para mejorar
                 la optimización de la aplicación.
               </div>
-              {scrollY > 1500 && (
+              {scrollY > 2000 && (
                 <div className="contentAnima">
                   <img className="imgTecno" src={`${pokedex1}`} alt="" />
                   <div className="contentSkills">
@@ -166,7 +168,7 @@ const Moible = () => {
                 AppRestaurant
               </a>
 
-              <div>
+              <div className="contentText">
                 El presente proyecto tiene como finalidad desarrollar una API
                 (Interfaz de Programación de Aplicaciones) para la gestión de
                 restaurantes en el backend. La API permitirá la administración
@@ -208,7 +210,7 @@ const Moible = () => {
                 blogPosts
               </a>
               <br />
-              <div>
+              <div className="contentText">
                 Este proyecto se centra en el desarrollo de un blog en el que
                 los usuarios pueden publicar sus posts y compartirlos con otros
                 usuarios de la aplicación. Cualquier persona puede registrarse e
@@ -254,8 +256,8 @@ const Moible = () => {
               >
                 Bicycle workshop
               </a>
-              <br />
-              <div>
+
+              <div className="contentText">
                 El presente proyecto tiene como finalidad desarrollar una API,
                 Este proyecto fue creado para aplicarlo a un taller de
                 bicicletas, donde los usuarios pueden apartar sus reparaciones y
@@ -281,6 +283,15 @@ const Moible = () => {
           </div>
         </div>
       </div>
+        <div>
+          <br />
+          <br />
+          <Skils />
+        </div>
+
+        <div className="contentDescription">
+
+        </div>
     </div>
   );
 };
