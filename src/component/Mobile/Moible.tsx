@@ -7,13 +7,13 @@ import restaurants from "../../assets/proyects/reRestaurant.png";
 import bisiRepair from "../../assets/proyects/bisicleta2.png";
 import imgBlog from "../../assets/proyects/blog.png"
 import Skils from "../skills/Skils";
+import Contact from "../contact/Contact";
 
 
 
 const Moible = () => {
   const { scrollY } = useScroll();
 
-  console.log(scrollY);
 
   return (
     <div className="ContentMobile">
@@ -66,8 +66,8 @@ const Moible = () => {
         <div className="headerAbout">
           <h2>Proyects</h2>
         </div>
-
           <div className="contentProyectsFront">
+
             <div className="contentProyec">
               <br />
               <br />
@@ -78,8 +78,7 @@ const Moible = () => {
               >
                 Ecomerse of technology store
               </a>
-              <br />
-              <div>
+              <div className="contentText">
                 Se utilizó la tecnología de React con TypeScript para
                 desarrollar un diseño intuitivo y atractivo con el objetivo de
                 que el usuario se sienta cómodo. Se implementaron rutas y rutas
@@ -103,6 +102,7 @@ const Moible = () => {
             </div>
 
             <div className="contentProyec">
+              <br />
               <a
                 className="linkEcomeTec"
                 href="https://worldrickandmorty.netlify.app"
@@ -131,6 +131,7 @@ const Moible = () => {
             </div>
 
             <div className="contentProyec">
+              <br />
               <a
                 className="linkEcomeTec"
                 href="https://pokeedexsite.netlify.app/"
@@ -159,14 +160,15 @@ const Moible = () => {
               )}
             </div>
 
-            <div className="contentProyecBack">
+            <div className="contentProyec">
+              <br />
               <hr />
               <br />
               <br />
-              <h3>BackEnd</h3>
+              <h3 className="titleproy">BackEnd</h3>
               <a
                 className="linkEcomeTec"
-                href="https://pokeedexsite.netlify.app/"
+                href="https://github.com/rom213/serverRestaurant.git"
               >
                 AppRestaurant
               </a>
@@ -205,14 +207,14 @@ const Moible = () => {
               )}
             </div>
 
-            <div className="contentProyecB">
+            <div className="contentProyec">
+              <br /><br />
               <a
                 className="linkEcomeTec"
                 href="https://github.com/rom213/BlogPosts.git"
               >
                 blogPosts
               </a>
-              <br />
               <div className="contentText">
                 Este proyecto se centra en el desarrollo de un blog en el que
                 los usuarios pueden publicar sus posts y compartirlos con otros
@@ -253,9 +255,10 @@ const Moible = () => {
             </div>
 
             <div className="contentProyec">
+              <br /><br />
               <a
                 className="linkEcomeTec"
-                href="https://pokeedexsite.netlify.app/"
+                href="https://github.com/rom213/TallerdeBicis.git"
               >
                 Bicycle workshop
               </a>
@@ -283,6 +286,7 @@ const Moible = () => {
                 </div>
               )}
             </div>
+
           </div>
 
       </div>
@@ -293,7 +297,7 @@ const Moible = () => {
         </div>
 
         <div className="contentDescription">
-
+            <Contact />
         </div>
     </div>
   );

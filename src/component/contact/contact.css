@@ -1,0 +1,28 @@
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(120, 114, 114);
+    color: white;
+    height: 500px;
+}
+
+input{
+    height: 40px;
+}
+textarea{
+    font-size: 1.4rem;
+    border-radius: 1.2rem;
+}
+
+.btForm{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btForm:active{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
