@@ -1,0 +1,138 @@
+.fixedMe{
+    position: fixed;
+    width: 50vw;
+    height: 1000px;
+    padding: 5rem;
+}
+
+.sectionProyects{
+    position: relative;
+    left: 50vw;
+    padding: 4vw;
+    width: 50vw;
+    height: 1200px;
+}
+
+.text{
+    position: relative;
+    height: 1000px;
+    padding-top:4rem ;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+.contentIcons{
+    position: absolute;
+    top: 500px;
+    display: flex;
+    gap: 1rem;
+}
+
+.header{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 1.3rem;
+}
+
+
+
+.line{
+    width: 40px;
+    height: 2px;
+    background-color: rgb(97, 81, 81);
+}
+
+.lineSelect{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    transition: 100ms;
+}
+
+.hoverline{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    transition: 200ms;
+}
+
+.contentHeaderSelect{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+.contentHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  color: rgb(90, 51, 51);
+}
+
+.sectionProyects{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+
+.proyect{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: rgb(87, 78, 78);
+    transition: 100ms;
+}
+
+.proyect:hover{
+    background-color: rgb(236, 232, 232);
+    border-radius: 1rem;
+    transform: scale(1.01);
+}
+
+.imgCompu{
+    width: 170px;
+    border-radius: 0.3rem;
+}
+
+.contentSkillsCompu{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+.skil{
+    width: 70px;
+    height: 25px;
+    color: black;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 100ms;
+}
+
+.skil:hover{
+    transform: scale(1.1);
+}
+
+.Proyects{
+    display: grid;
+    gap: 3rem;
+}
+
+.contentSkills{
+    top: -200px;
+    position: relative;
+    padding-top: 10rem;
+}
+
+.sectionCon{
+    position: relative;
+    top: -250px;
+}

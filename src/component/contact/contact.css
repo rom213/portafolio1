@@ -3,8 +3,9 @@ form{
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background-color: rgb(120, 114, 114);
+    background-color: rgb(110, 105, 159);
     color: white;
+    gap: 0.5rem;
 }
 
 input{
@@ -26,12 +27,23 @@ textarea{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 100%;
+    width: 98%;
+    border: none;
+    transition: 100ms;
+    background-color: rgb(227, 213, 250);
+    position: relative;
+    left: 0.4vw;
 }
 
 .btForm:active{
     border: none;
+}
 
+.btForm:hover{
+    transform: scale(1.009);
+    background-color:rgb(134, 131, 214) ;
+    color: white;
+    border: 1px solid blue;
 }
 .OPACIOTI{
     position: absolute;
@@ -40,3 +52,9 @@ textarea{
     width: 100%;
 }
 
+@media (min-width: 800px) {
+    form{
+        border-radius: 1rem;
+    }
+
+}

@@ -37,28 +37,28 @@ const Moible = () => {
           <h2>Abaut</h2>
         </div>
 
-        <div className="textAbout">
-          I am a seasoned full stack programmer with expertise in frontend
-          technologies such as JavaScript, CSS, HTML, React, and TypeScript. On
-          the backend, I specialize in API development, socket handling,
-          authentication, environment variables, error management, and working
-          with relational databases, particularly PostgreSQL.
-          <br />
-          <br />
-          My commitment to staying up-to-date with the latest industry trends
-          ensures that I can provide innovative and efficient solutions for any
-          project. I am constantly exploring new technologies and techniques to
-          enhance the quality and performance of my work.
-          <br />
-          <br />
-          With my extensive knowledge and experience, I am well-equipped to
-          tackle diverse challenges and deliver high-quality software solutions.
-          I prioritize clean and maintainable code, ensuring scalability and
-          robustness in my applications.
-          <br />
-          Whether it's building responsive and intuitive user interfaces or
-          developing robust and secure backend systems.
-        </div>
+          <div className="textAbout">
+            I am a seasoned full stack programmer with expertise in frontend
+            technologies such as JavaScript, CSS, HTML, React, and TypeScript. On
+            the backend, I specialize in API development, socket handling,
+            authentication, environment variables, error management, and working
+            with relational databases, particularly PostgreSQL.
+            <br />
+            <br />
+            My commitment to staying up-to-date with the latest industry trends
+            ensures that I can provide innovative and efficient solutions for any
+            project. I am constantly exploring new technologies and techniques to
+            enhance the quality and performance of my work.
+            <br />
+            <br />
+            With my extensive knowledge and experience, I am well-equipped to
+            tackle diverse challenges and deliver high-quality software solutions.
+            I prioritize clean and maintainable code, ensuring scalability and
+            robustness in my applications.
+            <br />
+            Whether it's building responsive and intuitive user interfaces or
+            developing robust and secure backend systems.
+          </div>
       </div>
 
 
@@ -297,6 +297,7 @@ const Moible = () => {
         <div className="contentAlldesCon">
           <br />
           <br />
+          <h1>Skills</h1>
           <Skils />
         </div>
 

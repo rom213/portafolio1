@@ -12,9 +12,7 @@ import img8 from "../../assets/skills/reactQuery.jpg";
 const Skils = () => {
   return (
     <div className="slider">
-      <div className="headerAbout">
-        <h1>skills</h1>
-      </div>
+
 
       <br />
       <div className="contentCubes">

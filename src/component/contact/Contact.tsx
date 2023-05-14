@@ -76,8 +76,8 @@ const deleteSubmit=()=>{
           rows={5}
         ></textarea>
         <button  type="submit" className="btForm">
-        <a className="OPACIOTI"    onClick={()=>deleteSubmit} href={`mailto:romarioariza@gmail.com?subject=${encodeURIComponent(formData.email)}&body=${encodeURIComponent(formData.name + '\n\n' + formData.text)}`}>enviar</a>
-        ENVIAR
+        <a className="OPACIOTI"    onClick={()=>deleteSubmit} href={`mailto:romarioariza@gmail.com?subject=${encodeURIComponent(formData.name)}&body=${encodeURIComponent(formData.email + '\n\n' + formData.text)}`}>enviar</a>
+        <h2>ENVIAR</h2>
         </button>
        
       </form>
