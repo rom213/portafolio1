@@ -8,10 +8,13 @@ import imgRick from "../../assets/proyects/rickandmorty.png";
 import imgTienda from "../../assets/proyects/tienda.png";
 import Skils from "../skills/Skils";
 import Contact from "../contact/Contact";
+import useScroll from "../../hooks/windowScroll";
 
 const Computer = () => {
   const [lineSelect, setlineSelect] = useState<number>(1);
   const [lineHover, setlineHover] = useState<number>();
+  const { scrollY } = useScroll()
+
 
   const seccion1Ref = useRef<HTMLDivElement>(null);
   const seccion2Ref = useRef<HTMLDivElement>(null);
@@ -42,18 +45,19 @@ const Computer = () => {
             <div  
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(1)}
-              onClick={() =>{ setlineSelect(1); scrollToSection(seccion1Ref)}}
+              onClick={() =>{scrollToSection(seccion1Ref)}}
               className={`${
                 lineSelect == 1 ? "contentHeaderSelect" : "contentHeader"
               }`}
             >
               <div
                 className={`${
-                  lineSelect == 1
-                    ? "lineSelect"
-                    : lineHover == 1
-                    ? "hoverline"
-                    : "line"
+                  lineHover==1 ? 
+                  'hoverline'
+                  :
+                    scrollY < 400  ?
+                    "lineSelect":
+                    'line'
                 }`}
               ></div>
               <div>Abaut</div>
@@ -61,38 +65,40 @@ const Computer = () => {
             <div
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(2)}
-              onClick={() =>{ setlineSelect(2); scrollToSection(seccion2Ref)}}
+              onClick={() =>{scrollToSection(seccion2Ref)}}
               className={`${
                 lineSelect == 2 ? "contentHeaderSelect" : "contentHeader"
               }`}
             >
               <div
                 className={`${
-                  lineSelect == 2
-                    ? "lineSelect"
-                    : lineHover == 2
-                    ? "hoverline"
-                    : "line"
-                }`}
+                  lineHover==2 ? 
+                  'hoverline'
+                  :
+                  scrollY > 400 && scrollY<2300  ?
+                  "lineSelect":
+                  'line'
+              }`}
               ></div>
               <div>Proyects</div>
             </div>
             <div
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(3)}
-              onClick={() =>{ setlineSelect(3); scrollToSection(seccion3Ref)}}
+              onClick={() =>{scrollToSection(seccion3Ref)}}
               className={`${
                 lineSelect == 3 ? "contentHeaderSelect" : "contentHeader"
               }`}
             >
               <div
-                className={`${
-                  lineSelect == 3
-                    ? "lineSelect"
-                    : lineHover == 3
-                    ? "hoverline"
-                    : "line"
-                }`}
+                 className={`${
+                  lineHover==3 ? 
+                  'hoverline'
+                  :
+                  scrollY > 2300 && scrollY < 2700 ?
+                  "lineSelect":
+                  'line'
+              }`}
               ></div>
               <div>Skils</div>
             </div>
@@ -106,21 +112,22 @@ const Computer = () => {
             >
               <div
                 className={`${
-                  lineSelect == 4
-                    ? "lineSelect"
-                    : lineHover == 4
-                    ? "hoverline"
-                    : "line"
-                }`}
+                  lineHover==4 ? 
+                  'hoverline'
+                  :
+                  scrollY > 2700 ?
+                  "lineSelect":
+                  'line'
+              }`}
               ></div>
               <div>Contact me</div>
             </div>
           </div>
 
           <div className="contentIcons">
-            <i className="bx bxl-github bx-tada-hover bx-md"></i>
-            <i className="bx bxl-facebook-circle bx-tada-hover bx-md"></i>
-            <i className="bx bxl-linkedin bx-tada-hover bx-md"></i>
+            <a href="https://github.com/rom213?tab=repositories"><i className="bx bxl-github bx-tada-hover bx-md"></i></a> 
+            <a href="https://www.linkedin.com/in/romario-ariza-428b53260/"><i className="bx bxl-linkedin bx-tada-hover bx-md"></i></a>
+            <a href="https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/CVweb_developer_RomarioAriza.pdf?alt=media&token=785f2e00-422c-4840-9bcf-81fa6d793422"><i className='bx bx-id-card bx-md'></i></a>
           </div>
         </div>
       </div>

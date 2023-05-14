@@ -108,9 +108,9 @@ transform: scale(0.9);
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .contentCubes{
-      left: 30vw;
+      left: 40vw;
     }
   }
 

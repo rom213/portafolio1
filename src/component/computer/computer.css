@@ -2,7 +2,7 @@
     position: fixed;
     width: 50vw;
     height: 1000px;
-    padding: 5rem;
+    padding: 6rem;
 }
 
 .sectionProyects{
@@ -134,5 +134,5 @@
 
 .sectionCon{
     position: relative;
-    top: -250px;
+    top: -200px;
 }
