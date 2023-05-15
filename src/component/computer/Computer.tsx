@@ -127,7 +127,7 @@ const Computer = () => {
           <div className="contentIcons">
             <a href="https://github.com/rom213?tab=repositories"><i className="bx bxl-github bx-tada-hover bx-md"></i></a> 
             <a href="https://www.linkedin.com/in/romario-ariza-428b53260/"><i className="bx bxl-linkedin bx-tada-hover bx-md"></i></a>
-            <a href="https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/CVweb_developer_RomarioAriza.pdf?alt=media&token=785f2e00-422c-4840-9bcf-81fa6d793422"><i className='bx bx-id-card bx-md'></i></a>
+            <a href="https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/CVweb_developer_RomarioAriza.pdf?alt=media&token=0b5e0134-c9b9-482b-a9db-bf0ad090ff20"><i className='bx bx-id-card bx-md'></i></a>
           </div>
         </div>
       </div>
