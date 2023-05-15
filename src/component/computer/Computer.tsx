@@ -165,7 +165,7 @@ const Computer = () => {
                 los usuarios pueden publicar sus posts y compartirlos con otros
                 usuarios de la aplicación. Cualquier persona puede registrarse e
                 iniciar sesión utilizando su correo electrónico para crear
-                publicaciones y comentar los posts de otros usuarios. Para la
+                publicaciones y comentar los posts de otros usuarios. en la
                 implementación, se utilizó el framework Express, el cual
                 facilitó la creación de la Api.
               </div>
@@ -224,7 +224,7 @@ const Computer = () => {
                 <h2>AppRestaurant</h2>
               </div>
               <div>
-                Este proyecto se desarrollo d una API, para la gestión de
+                En este proyecto se desarrollo una API, para la gestión de
                 restaurantes en el backend. La API permite la administración de
                 reservaciones, usuarios, comidas, pedidos y comentarios sobre la
                 calidad del servicio en los restaurantes. Además, se brindará la

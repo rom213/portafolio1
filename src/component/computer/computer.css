@@ -136,3 +136,15 @@
     position: relative;
     top: -200px;
 }
+
+
+@media (max-width: 1060px) {
+    .proyect{
+        position: relative;
+        transform: scale(0.8);
+        right: 30px;
+    }
+    .proyect:hover{
+        transform: scale(0.9);
+    }
+}
