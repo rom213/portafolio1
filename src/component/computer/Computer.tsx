@@ -9,6 +9,7 @@ import imgTienda from "../../assets/proyects/tienda.png";
 import Skils from "../skills/Skils";
 import Contact from "../contact/Contact";
 import useScroll from "../../hooks/windowScroll";
+import Night from "../modoNocturno/Night";
 
 const Computer = () => {
   const [lineSelect, setlineSelect] = useState<number>(1);
@@ -33,6 +34,9 @@ const Computer = () => {
   return (
     <div>
       <div className="fixedMe">
+        <div className="noc">
+          <Night />
+        </div>
         <div className="SecMobile1">
           <h1>Romario Ariza</h1>
           <h3>Full Stack Developer</h3>

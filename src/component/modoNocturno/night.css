@@ -1,0 +1,64 @@
+html {
+    --primary-color: rgb(6, 14, 57);
+    --secondary-color: #ffffff;
+    --color-Btn:#000000;
+
+  
+  }
+  html[data-theme="dark"] {
+    --primary-color: #fff;  
+    --secondary-color: rgb(63, 53, 53);
+    --color-Btn:#0a1d42;
+  }
+
+
+.contentBo{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    background-color:var(--color-Btn);
+    border-radius: 3rem;
+    transition: 100ms;
+}
+
+.bolitaRight{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    animation: move-up1 100ms ease-out forwards;
+}
+
+
+
+.bolitaleft{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    animation: move-up 100ms ease-out forwards;
+}
+
+
+
+@keyframes move-up1 {
+    from {
+      right: 0;
+    }
+    to {
+      left: 0;
+    }
+  }
+
+  @keyframes move-up {
+    from {
+      left: 0;
+    }
+    to {
+      right: 0;
+    }
+  }

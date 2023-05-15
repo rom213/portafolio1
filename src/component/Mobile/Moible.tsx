@@ -8,6 +8,7 @@ import bisiRepair from "../../assets/proyects/bisicleta2.png";
 import imgBlog from "../../assets/proyects/blog.png"
 import Skils from "../skills/Skils";
 import Contact from "../contact/Contact";
+import Night from "../modoNocturno/Night";
 
 
 
@@ -17,6 +18,9 @@ const Moible = () => {
 
   return (
     <div className="ContentMobile">
+      <div className="noche">
+        <Night />
+      </div>
       <div className="SecMobile1">
         <h1>Romario Ariza</h1>
         <h3>Full Stack Developer</h3>
