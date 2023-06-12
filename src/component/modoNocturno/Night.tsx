@@ -11,7 +11,9 @@ import globalStore from "../../secstore/Store_global";
 const Night: React.FC = () => {
 
 const { ThunkValue } = globalStore()
-
+useEffect(() => {
+  setChecked(true)
+}, [])
   const [checked, setChecked] = useState<boolean>(
     localStorage.getItem("theme") === "dark" ? false : true
   );

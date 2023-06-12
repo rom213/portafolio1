@@ -169,7 +169,7 @@ const Computer = () => {
           <a
             onMouseOut={() => setover(true)}
             onMouseOver={() => setover(false)}
-            href="https://blogswagger.onrender.com/api/v1/docs/#/"
+            href="https://blogswagger.onrender.com/api/v1/docs/"
             className="proyect"
           >
             <div>
@@ -186,7 +186,7 @@ const Computer = () => {
                     </div>
                   </div>
                 </a>
-                <a href="https://blogswagger.onrender.com/api/v1/docs/#/">
+                <a href="https://blogswagger.onrender.com/api/v1/docs/">
                   <i className="bx bxs-file-doc bx-lg bx-fade-down"></i>
                 </a>
               </div>
@@ -217,7 +217,7 @@ const Computer = () => {
           </a>
 
           <a
-            href="https://tiendatecnologica.netlify.app/#/"
+            href="https://tiendatecnologica.netlify.app/"
             className="proyect"
             onMouseOut={() => setover2(true)}
             onMouseOver={() => setover2(false)}
@@ -261,7 +261,7 @@ const Computer = () => {
           </a>
 
           <a
-            href="https://apirestaurant.onrender.com/api/v1/docs/#/"
+            href="https://apirestaurant.onrender.com/api/v1/docs/"
             className="proyect"
             onMouseOut={() => setover3(true)}
             onMouseOver={() => setover3(false)}
@@ -276,7 +276,7 @@ const Computer = () => {
                     </div>
                   </div>
                 </a>
-                <a href="https://apirestaurant.onrender.com/api/v1/docs/#/">
+                <a href="https://apirestaurant.onrender.com/api/v1/docs/">
                   <i className="bx bxs-file-doc bx-lg bx-fade-down"></i>
                 </a>
               </div>
@@ -306,7 +306,7 @@ const Computer = () => {
           </a>
 
           <a
-            href="https://swaggerpelis.onrender.com/api/v1/docs/#/"
+            href="https://swaggerpelis.onrender.com/api/v1/docs/"
             className="proyect"
             onMouseOut={() => setover4(true)}
             onMouseOver={() => setover4(false)}
@@ -321,7 +321,7 @@ const Computer = () => {
                     </div>
                   </div>
                 </a>
-                <a href="https://swaggerpelis.onrender.com/api/v1/docs/#/">
+                <a href="https://swaggerpelis.onrender.com/api/v1/docs/">
                   <i className="bx bxs-file-doc bx-lg bx-fade-down"></i>
                 </a>
               </div>

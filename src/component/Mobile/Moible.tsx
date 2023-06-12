@@ -82,7 +82,7 @@ const Moible = () => {
             <h3 className="titleproy">frontEnd</h3>
             <a
               className="linkEcomeTec"
-              href="https://tiendatecnologica.netlify.app/#/"
+              href="https://tiendatecnologica.netlify.app/"
             >
               Ecomerse of technology store
             </a>
@@ -176,7 +176,7 @@ const Moible = () => {
             <h3 className="titleproy">BackEnd</h3>
             <a
               className="linkEcomeTec"
-              href="https://apirestaurant.onrender.com/api/v1/docs/#/"
+              href="https://apirestaurant.onrender.com/api/v1/docs/"
             >
               AppRestaurant
             </a>
@@ -220,7 +220,7 @@ const Moible = () => {
             <br />
             <a
               className="linkEcomeTec"
-              href="https://blogswagger.onrender.com/api/v1/docs/#/"
+              href="https://blogswagger.onrender.com/api/v1/docs/"
             >
               blogPosts
             </a>
@@ -268,7 +268,7 @@ const Moible = () => {
             <br />
             <a
               className="linkEcomeTec"
-              href="https://swaggerpelis.onrender.com/api/v1/docs/#/"
+              href="https://swaggerpelis.onrender.com/api/v1/docs/"
             >
               appi-pelis
             </a>
