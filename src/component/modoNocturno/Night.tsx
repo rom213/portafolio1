@@ -15,11 +15,9 @@ useEffect(() => {
   setChecked(true)
 }, [])
   const [checked, setChecked] = useState<boolean>(
-    localStorage.getItem("theme") === "dark" ? false : true
+    localStorage.getItem("theme") === "dark" ? true : false
   );
-  useEffect(() => {
-    setChecked(true)
-  }, [])
+
   
   useEffect(() => {
     document
