@@ -74,26 +74,32 @@ transform: scale(0.9);
 
   .front {
     transform: translateZ(100px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .back {
     transform: translateZ(-100px) rotateY(180deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .left {
     transform: translateX(-100px) rotateY(-90deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .right {
     transform: translateX(100px) rotateY(90deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .top {
     transform: translateY(-100px) rotateX(90deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .bottom {
     transform: translateY(100px) rotateX(-90deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .contentCubes{

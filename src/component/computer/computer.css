@@ -6,7 +6,7 @@ html {
     --section-color:#042035;
   }
   html[data-theme="dark"] {
-    --primary-color: #fff;  
+    --primary-color: #4788b1;  
     --secondary-color: black;
     --color-tarjet:rgb(236, 232, 232);
     --section-color:#fff;
@@ -16,11 +16,13 @@ html {
     width: 50vw;
     height: 1000px;
     padding: 6rem;
+    z-index:1
 
 }
 .noc{
     position: relative;
     left: 1vw;
+    z-index: 200;
 }
 .sectionProyects{
     position: relative;
@@ -29,7 +31,7 @@ html {
     width: 50vw;
     height: 1200px;
     background-color: var(--section-color);
-    min-height: 3800px;
+    min-height: 3750px;
 }
 
 .text{
@@ -156,6 +158,37 @@ html {
 .sectionCon{
     position: relative;
     top: -200px;
+}
+
+.pie2{
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    left: 0.5vw;
+}
+
+.float {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    padding: .8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.opaci{
+    opacity: 0;
+}
+
+.infoCont{
+    width: 100px;
+    display: flex;
+    
 }
 
 

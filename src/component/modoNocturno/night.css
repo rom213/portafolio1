@@ -19,6 +19,7 @@ html {
     background-color:var(--color-Btn);
     border-radius: 3rem;
     transition: 100ms;
+    user-select: none;
 }
 
 .bolitaRight{
@@ -29,6 +30,10 @@ html {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     animation: move-up1 100ms ease-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
 }
 
 
@@ -41,6 +46,9 @@ html {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     animation: move-up 100ms ease-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

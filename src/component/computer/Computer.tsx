@@ -13,21 +13,23 @@ import Night from "../modoNocturno/Night";
 
 const Computer = () => {
   const [lineSelect, setlineSelect] = useState<number>(1);
+  const [over, setover] = useState<boolean>(true);
+  const [over2, setover2] = useState<boolean>(true);
+  const [over3, setover3] = useState<boolean>(true);
+  const [over4, setover4] = useState<boolean>(true);
+  const [over5, setover5] = useState<boolean>(true);
+  const [over6, setover6] = useState<boolean>(true);
   const [lineHover, setlineHover] = useState<number>();
-  const { scrollY } = useScroll()
-
+  const { scrollY } = useScroll();
 
   const seccion1Ref = useRef<HTMLDivElement>(null);
   const seccion2Ref = useRef<HTMLDivElement>(null);
   const seccion3Ref = useRef<HTMLDivElement>(null);
   const seccion4Ref = useRef<HTMLDivElement>(null);
 
-
-
   const scrollToSection = (ref: React.RefObject<HTMLDivElement>): void => {
-    
     if (ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
+      ref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -46,22 +48,23 @@ const Computer = () => {
           </div>
 
           <div className="header">
-            <div  
+            <div
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(1)}
-              onClick={() =>{scrollToSection(seccion1Ref)}}
+              onClick={() => {
+                scrollToSection(seccion1Ref);
+              }}
               className={`${
                 lineSelect == 1 ? "contentHeaderSelect" : "contentHeader"
               }`}
             >
               <div
                 className={`${
-                  lineHover==1 ? 
-                  'hoverline'
-                  :
-                    scrollY < 400  ?
-                    "lineSelect":
-                    'line'
+                  lineHover == 1
+                    ? "hoverline"
+                    : scrollY < 400
+                    ? "lineSelect"
+                    : "line"
                 }`}
               ></div>
               <div>Abaut</div>
@@ -69,74 +72,82 @@ const Computer = () => {
             <div
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(2)}
-              onClick={() =>{scrollToSection(seccion2Ref)}}
+              onClick={() => {
+                scrollToSection(seccion2Ref);
+              }}
               className={`${
                 lineSelect == 2 ? "contentHeaderSelect" : "contentHeader"
               }`}
             >
               <div
                 className={`${
-                  lineHover==2 ? 
-                  'hoverline'
-                  :
-                  scrollY > 400 && scrollY<2300  ?
-                  "lineSelect":
-                  'line'
-              }`}
+                  lineHover == 2
+                    ? "hoverline"
+                    : scrollY > 400 && scrollY < 2300
+                    ? "lineSelect"
+                    : "line"
+                }`}
               ></div>
               <div>Proyects</div>
             </div>
             <div
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(3)}
-              onClick={() =>{scrollToSection(seccion3Ref)}}
+              onClick={() => {
+                scrollToSection(seccion3Ref);
+              }}
               className={`${
                 lineSelect == 3 ? "contentHeaderSelect" : "contentHeader"
               }`}
             >
               <div
-                 className={`${
-                  lineHover==3 ? 
-                  'hoverline'
-                  :
-                  scrollY > 2300 && scrollY < 2700 ?
-                  "lineSelect":
-                  'line'
-              }`}
+                className={`${
+                  lineHover == 3
+                    ? "hoverline"
+                    : scrollY > 2300 && scrollY < 2700
+                    ? "lineSelect"
+                    : "line"
+                }`}
               ></div>
               <div>Skils</div>
             </div>
             <div
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(4)}
-              onClick={() =>{ setlineSelect(4); scrollToSection(seccion4Ref)}}
+              onClick={() => {
+                setlineSelect(4);
+                scrollToSection(seccion4Ref);
+              }}
               className={`${
                 lineSelect == 4 ? "contentHeaderSelect" : "contentHeader"
               }`}
             >
               <div
                 className={`${
-                  lineHover==4 ? 
-                  'hoverline'
-                  :
-                  scrollY > 2700 ?
-                  "lineSelect":
-                  'line'
-              }`}
+                  lineHover == 4
+                    ? "hoverline"
+                    : scrollY > 2700
+                    ? "lineSelect"
+                    : "line"
+                }`}
               ></div>
               <div>Contact me</div>
             </div>
           </div>
 
           <div className="contentIcons">
-            <a href="https://github.com/rom213?tab=repositories"><i className="bx bxl-github bx-tada-hover bx-md"></i></a> 
-            <a href="https://www.linkedin.com/in/romario-ariza-428b53260/"><i className="bx bxl-linkedin bx-tada-hover bx-md"></i></a>
-            <a href="https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/CVweb_developer_RomarioAriza.pdf?alt=media&token=0b5e0134-c9b9-482b-a9db-bf0ad090ff20"><i className='bx bx-id-card bx-md'></i></a>
+            <a href="https://github.com/rom213?tab=repositories">
+              <i className="bx bxl-github bx-tada-hover bx-md"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/romario-ariza-428b53260/">
+              <i className="bx bxl-linkedin bx-tada-hover bx-md"></i>
+            </a>
+            <a href="https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/CVweb_developer_RomarioAriza.pdf?alt=media&token=0b5e0134-c9b9-482b-a9db-bf0ad090ff20">
+              <i className="bx bx-id-card bx-md"></i>
+            </a>
           </div>
         </div>
       </div>
-
-
 
       <div className="sectionProyects">
         <div ref={seccion1Ref} className="text">
@@ -151,13 +162,33 @@ const Computer = () => {
           ensures that I can provide innovative and efficient solutions for any
           project. I am constantly exploring new technologies and techniques to
           enhance the quality and performance of my work.
-          </div>
+        </div>
 
-        <div ref={seccion2Ref}
-        className="Proyects">
-          <a href="https://github.com/rom213/BlogPosts.git" className="proyect">
+        <div ref={seccion2Ref} className="Proyects">
+          <a
+            onMouseOut={() => setover(true)}
+            onMouseOver={() => setover(false)}
+            href="https://blogswagger.onrender.com/api/v1/docs/#/"
+            className="proyect"
+          >
             <div>
               <img className="imgCompu" src={`${imgPost}`} alt="" />
+              <div
+                className={`infoCont ${over && "opaci"}`}
+                onMouseOut={() => setover(false)}
+                onMouseOver={() => setover(true)}
+              >
+                <a href="https://github.com/rom213/BlogPosts.git">
+                  <div>
+                    <div className="float">
+                      <i className="bx bx-cloud-download bx-fade-down bx-lg"></i>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://blogswagger.onrender.com/api/v1/docs/#/">
+                  <i className="bx bxs-file-doc bx-lg bx-fade-down"></i>
+                </a>
+              </div>
             </div>
             <div>
               <div>
@@ -187,10 +218,22 @@ const Computer = () => {
           <a
             href="https://tiendatecnologica.netlify.app/#/"
             className="proyect"
+            onMouseOut={() => setover2(true)}
+            onMouseOver={() => setover2(false)}
           >
             <div>
               <img className="imgCompu" src={`${imgEcomer}`} alt="" />
+              <div className={`infoCont ${over2 && "opaci"}`}>
+                <a href="https://github.com/rom213/e-comerse.git">
+                  <div>
+                    <div className="float">
+                      <i className="bx bx-cloud-download bx-fade-down bx-lg"></i>
+                    </div>
+                  </div>
+                </a>{" "}
+              </div>
             </div>
+
             <div>
               <div>
                 <h2>Ecomerse of technology store</h2>
@@ -217,11 +260,25 @@ const Computer = () => {
           </a>
 
           <a
-            href="https://github.com/rom213/serverRestaurant.git"
+            href="https://apirestaurant.onrender.com/api/v1/docs/#/"
             className="proyect"
+            onMouseOut={() => setover3(true)}
+            onMouseOver={() => setover3(false)}
           >
             <div>
               <img className="imgCompu" src={`${imgRestaurant}`} alt="" />
+              <div className={`infoCont ${over3 && "opaci"}`}>
+                <a href="https://github.com/rom213/serverRestaurant.git">
+                  <div>
+                    <div className="float">
+                      <i className="bx bx-cloud-download bx-fade-down bx-lg"></i>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://apirestaurant.onrender.com/api/v1/docs/#/">
+                  <i className="bx bxs-file-doc bx-lg bx-fade-down"></i>
+                </a>
+              </div>
             </div>
             <div>
               <div>
@@ -248,40 +305,67 @@ const Computer = () => {
           </a>
 
           <a
-            href="https://github.com/rom213/TallerdeBicis.git"
+            href="https://swaggerpelis.onrender.com/api/v1/docs/#/"
             className="proyect"
+            onMouseOut={() => setover4(true)}
+            onMouseOver={() => setover4(false)}
           >
             <div>
               <img className="imgCompu" src={`${imgBici}`} alt="" />
+              <div className={`infoCont ${over4 && "opaci"}`}>
+                <a href="https://github.com/rom213/apiPelisNet.git">
+                  <div>
+                    <div className="float">
+                      <i className="bx bx-cloud-download bx-fade-down bx-lg"></i>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://swaggerpelis.onrender.com/api/v1/docs/#/">
+                  <i className="bx bxs-file-doc bx-lg bx-fade-down"></i>
+                </a>
+              </div>
             </div>
             <div>
               <div>
-                <h2>Bicycle workshop</h2>
+                <h2>appi-pelis</h2>
               </div>
               <div>
-                Este proyecto fue creado para aplicarlo a un taller de
-                bicicletas, donde los usuarios pueden apartar sus reparaciones y
-                cancelarlas si se demoran. Los empleados pueden marcar una
-                reparación como completada. La aplicación permite iniciar sesión
-                a través de un token y se ha hecho uso del framework de express.
-                También se empleó una base de datos MySQL con las relaciones
-                correspondientes, encriptación de contraseñas, middlewares y
-                manejo de errores.
+                Este proyecto fue creado para ser aplicado en un frontend. Es
+                una aplicación donde los usuarios pueden registrarse y acceder
+                mediante un token. Las películas, géneros y personajes tienen
+                sus respectivas imágenes, las cuales se cargan en Firebase. 
+                se establecio una base de datos actualizada MySQL2 que tiene sus respectivas migraciones y
+                seeders, además de tener relaciones entre tablas de 1 a 1, 1 a
+                muchos y muchos a muchos.
               </div>
               <div>
                 <div className="contentSkillsCompu">
                   <div className="skil">nodejs</div>
                   <div className="skil">express</div>
-                  <div className="skil">react</div>
-                  <div className="skil">postman</div>
+                  <div className="skil">Mysql2</div>
+                  <div className="skil">swagger</div>
                 </div>
               </div>
             </div>
           </a>
 
-          <a href="https://worldrickandmorty.netlify.app" className="proyect">
+          <a
+            href="https://worldrickandmorty.netlify.app"
+            className="proyect"
+            onMouseOut={() => setover5(true)}
+            onMouseOver={() => setover5(false)}
+          >
             <div>
               <img className="imgCompu" src={`${imgRick}`} alt="" />
+              <div className={`infoCont ${over5 && "opaci"}`}>
+                <a href="https://github.com/rom213/ryck-y-Morty.git">
+                  <div>
+                    <div className="float">
+                      <i className="bx bx-cloud-download bx-fade-down bx-lg"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
             <div>
               <div>
@@ -308,9 +392,21 @@ const Computer = () => {
           <a
             href="https://tiendaacademlo.netlify.app/#sec_1"
             className="proyect"
+            onMouseOut={() => setover6(true)}
+            onMouseOver={() => setover6(false)}
           >
             <div>
               <img className="imgCompu" src={`${imgTienda}`} alt="" />
+              <div className={`infoCont ${over6 && "opaci"}`}>
+                <a href="https://github.com/rom213/ecomerse.git">
+                  <div>
+                    <div className="float">
+                      <i className="bx bx-cloud-download bx-fade-down bx-lg"></i>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
             </div>
             <div>
               <div>
@@ -332,18 +428,17 @@ const Computer = () => {
           </a>
         </div>
 
-
         <div className="contentSkills" ref={seccion3Ref}>
-        <Skils />
+          <Skils />
         </div>
 
         <div className="sectionCon" ref={seccion4Ref}>
           <Contact />
         </div>
+        <div className="piedePagina pie2">
+          <h1>Hecho con 🤎 </h1>
+        </div>
       </div>
-
-
-
     </div>
   );
 };

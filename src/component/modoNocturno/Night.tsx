@@ -3,21 +3,27 @@ import './night.css'
 import '../Mobile/style.css'
 import '../computer/computer.css'
 import '../../App.css'
+import globalStore from "../../secstore/Store_global";
+
 
 
 
 const Night: React.FC = () => {
+
+const { ThunkValue } = globalStore()
+
   const [checked, setChecked] = useState<boolean>(
-    localStorage.getItem("theme") === "dark" ? true : false
+    localStorage.getItem("theme") === "dark" ? false : true
   );
   useEffect(() => {
-    setChecked(false)
+    setChecked(true)
   }, [])
   
   useEffect(() => {
     document
       .getElementsByTagName("HTML")[0]
       .setAttribute("data-theme", localStorage.getItem("theme") || "");
+
   }, [checked]);
 
   const toggleThemeChange = (): void => {
@@ -28,6 +34,7 @@ const Night: React.FC = () => {
       localStorage.setItem("theme", "light");
       setChecked(false);
     }
+    ThunkValue()
   };
 
   
@@ -35,8 +42,13 @@ const Night: React.FC = () => {
 
   return (
     <div>
-      <div onClick={()=>{setChecked(true);toggleThemeChange()}} className="contentBo">
-        <div  className={`${checked ? 'bolitaleft' : 'bolitaRight'}`}></div>
+      <div onClick={()=>{setChecked(!checked);toggleThemeChange()}} className="contentBo">
+        <div  className={`${checked ? 'bolitaleft' : 'bolitaRight'}`}>
+          {
+            checked ?  <h2>D</h2>: <h2>N</h2>
+          }
+
+        </div>
       </div>
     </div>
   );

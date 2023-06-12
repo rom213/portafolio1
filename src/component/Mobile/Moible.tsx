@@ -178,7 +178,7 @@ const Moible = () => {
               <h3 className="titleproy">BackEnd</h3>
               <a
                 className="linkEcomeTec"
-                href="https://github.com/rom213/serverRestaurant.git"
+                href="https://apirestaurant.onrender.com/api/v1/docs/#/"
               >
                 AppRestaurant
               </a>
@@ -221,7 +221,7 @@ const Moible = () => {
               <br /><br />
               <a
                 className="linkEcomeTec"
-                href="https://github.com/rom213/BlogPosts.git"
+                href="ttps://blogswagger.onrender.com/api/v1/docs/#/"
               >
                 blogPosts
               </a>
@@ -268,21 +268,19 @@ const Moible = () => {
               <br /><br />
               <a
                 className="linkEcomeTec"
-                href="https://github.com/rom213/TallerdeBicis.git"
+                href="https://swaggerpelis.onrender.com/api/v1/docs/#/"
               >
-                Bicycle workshop
+                appi-pelis
               </a>
 
               <div className="contentText">
-                El presente proyecto tiene como finalidad desarrollar una API,
-                Este proyecto fue creado para aplicarlo a un taller de
-                bicicletas, donde los usuarios pueden apartar sus reparaciones y
-                cancelarlas si se demoran. Los empleados pueden marcar una
-                reparación como completada. La aplicación permite iniciar sesión
-                a través de un token y se ha hecho uso del framework de express.
-                También se empleó una base de datos MySQL con las relaciones
-                correspondientes, encriptación de contraseñas, middlewares y
-                manejo de errores.
+                Este proyecto fue creado para ser aplicado en un frontend. Es
+                una aplicación donde los usuarios pueden registrarse y acceder
+                mediante un token. Las películas, géneros y personajes tienen
+                sus respectivas imágenes, las cuales se cargan en Firebase. 
+                se establecio una base de datos actualizada MySQL2 que tiene sus respectivas migraciones y
+                seeders, además de tener relaciones entre tablas de 1 a 1, 1 a
+                muchos y muchos a muchos.
               </div>
               {scrollY > 1500 && (
                 <div className="contentAnima">

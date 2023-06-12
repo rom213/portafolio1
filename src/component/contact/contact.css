@@ -1,10 +1,21 @@
+html {
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: #fff;
+
+  
+  }
+  html[data-theme="dark"] {
+    --primary-color: #fff;  
+    --secondary-color: black;
+  }
+
+
 form{
     position: relative;
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background-color: rgb(110, 105, 159);
-    color: white;
+    color: var(--secondary-color);
     gap: 0.5rem;
 }
 
@@ -12,12 +23,15 @@ input{
     height: 40px;
     padding-left: 1rem;
     font-size: 1.3rem;
+    border-radius: 1rem;
+    background-color: rgb(245, 245, 223);
 }
 textarea{
     font-size: 1.4rem;
     border-radius: 1.2rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    background-color: rgb(245, 245, 223);
 }
 
 .btForm{
@@ -30,21 +44,19 @@ textarea{
     width: 98%;
     border: none;
     transition: 100ms;
-    background-color: rgb(227, 213, 250);
     position: relative;
     left: 0.4vw;
-    color: rgb(71, 50, 50);
+    border: 1px solid rgb(1, 1, 1);
 }
 
 .btForm:active{
-    border: none;
+    border: 1px solid rgb(1, 1, 1);
 }
 
 .btForm:hover{
     transform: scale(1.009);
-    background-color:rgb(134, 131, 214) ;
-    color: white;
-    border: 1px solid blue;
+    color: rgb(8, 8, 8);
+    border: 1px solid rgb(1, 1, 1);
 }
 .OPACIOTI{
     position: absolute;
