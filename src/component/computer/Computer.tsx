@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import "./computer.css";
 import imgPost from "../../assets/proyects/blog.png";
 import imgRestaurant from "../../assets/proyects/restaurant.png";
-import imgBici from "../../assets/proyects/bisicleta2.png";
 import imgEcomer from "../../assets/proyects/tienedadetecnologia.png";
 import imgRick from "../../assets/proyects/rickandmorty.png";
 import imgTienda from "../../assets/proyects/tienda.png";
@@ -10,7 +9,7 @@ import Skils from "../skills/Skils";
 import Contact from "../contact/Contact";
 import useScroll from "../../hooks/windowScroll";
 import Night from "../modoNocturno/Night";
-
+ 
 const Computer = () => {
   const [lineSelect, setlineSelect] = useState<number>(1);
   const [over, setover] = useState<boolean>(true);
@@ -34,7 +33,7 @@ const Computer = () => {
   };
 
   return (
-    <div>
+    <div className="contComputer">
       <div className="fixedMe">
         <div className="noc">
           <Night />
@@ -142,9 +141,11 @@ const Computer = () => {
             <a href="https://www.linkedin.com/in/romario-ariza-428b53260/">
               <i className="bx bxl-linkedin bx-tada-hover bx-md"></i>
             </a>
-            <a href="https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/CVweb_developer_RomarioAriza.pdf?alt=media&token=0b5e0134-c9b9-482b-a9db-bf0ad090ff20">
+            <a  href="https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/meals%2F1686582750574-CVweb_developer_RomarioAriza.pdf?alt=media&token=044b0c84-3bc0-4ec4-8387-485e5ad2eee5&_gl=1*1dyixzx*_ga*MTQxMTg4ODIyLjE2ODQwOTc3MTE.*_ga_CW55HF8NVT*MTY4NjU4MDE1MC41LjEuMTY4NjU4MjgzMC4wLjAuMA.." download="">
               <i className="bx bx-id-card bx-md"></i>
+              <i className="bx bx-cloud-download bx-fade-down bx-md"></i>
             </a>
+
           </div>
         </div>
       </div>
@@ -311,7 +312,7 @@ const Computer = () => {
             onMouseOver={() => setover4(false)}
           >
             <div>
-              <img className="imgCompu" src={`${imgBici}`} alt="" />
+              <img className="imgCompu" src='https://th.bing.com/th/id/R.5eb2d62cac6c08719b4d3b8672a7e56f?rik=Q4bbJqLRMrfKeQ&riu=http%3a%2f%2ffrikilogia.com%2fwp-content%2fuploads%2f2012%2f01%2ftecnologia-organiza-tu-coleccion-de-peliculas-la-b.jpg&ehk=84rPabYc5fidYt3aWsm5rHpK7QJvGlA0pfWBeV4NPiw%3d&risl=&pid=ImgRaw&r=0' alt="" />
               <div className={`infoCont ${over4 && "opaci"}`}>
                 <a href="https://github.com/rom213/apiPelisNet.git">
                   <div>

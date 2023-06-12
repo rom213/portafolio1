@@ -11,6 +11,11 @@ html {
     --color-tarjet:rgb(236, 232, 232);
     --section-color:#fff;
   }
+
+.contComputer{
+    transition: all 0.5s;
+    animation: transition 0.1s ease-out forwards;
+}
 .fixedMe{
     position: fixed;
     width: 50vw;
@@ -190,7 +195,11 @@ html {
     display: flex;
     
 }
-
+@keyframes move-up4 {
+    from {
+      transition: all 4s;
+    }
+  }
 
 @media (max-width: 1060px) {
     .proyect{
