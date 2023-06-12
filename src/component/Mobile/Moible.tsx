@@ -44,7 +44,7 @@ const Moible = () => {
 
       <div className="secMobile2">
         <div className="headerAbout">
-          <h2>Abaut</h2>
+          <h2>About</h2>
         </div>
 
         <div className="textAbout">

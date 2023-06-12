@@ -66,7 +66,7 @@ const Computer = () => {
                     : "line"
                 }`}
               ></div>
-              <div>Abaut</div>
+              <div>About</div>
             </div>
             <div
               onMouseOut={() => setlineHover(0)}
