@@ -1,0 +1,281 @@
+{
+    "español": {
+        "description": {
+            "name": "Romario Ariza",
+            "rol": "Full Stack Developer",
+            "subDescription": "Construyo productos y experiencias digitales accesibles e inclusivos para la web",
+            "description": "Soy un programador full stack con amplia experiencia en diversas tecnologías. En el ámbito frontend, cuento con sólidos conocimientos en JavaScript, CSS, HTML, React y TypeScript. En el backend, mi especialización abarca el desarrollo de APIs, la gestión de sockets, la implementación de sistemas de autenticación, la configuración de variables de entorno, la gestión de errores y el trabajo con bases de datos relacionales, en particular PostgreSQL. <br/>Mi compromiso con la actualización constante en las últimas tendencias de la industria me permite ofrecer soluciones innovadoras y eficientes para cualquier proyecto. Siempre estoy en la búsqueda de nuevas tecnologías y técnicas para mejorar la calidad y el rendimiento de mi trabajo."
+        },
+        "projects": [
+            {
+                "id": "1",
+                "title": "BlogPost",
+                "description": "Este proyecto se centra en el desarrollo de un blog en el que los usuarios pueden publicar sus posts y compartirlos con otros usuarios de la aplicación. Cualquier persona puede registrarse e iniciar sesión utilizando su correo electrónico para crear publicaciones y comentar los posts de otros usuarios. en la implementación, se utilizó el framework Express, el cual facilitó la creación de la Api.",
+                "link_git": "https://github.com/rom213/BlogPosts.git",
+                "link_doc": "https://blogswagger.onrender.com/api/v1/docs/",
+                "img_link": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fblog.png?alt=media&token=912e08ea-20d1-4651-a787-f7357e5045f2&_gl=1*hpo1tb*_ga*NDI2MTc5MzEwLjE2OTUzMzM2Mzk.*_ga_CW55HF8NVT*MTY5Nzc2MzM4OS4zLjEuMTY5Nzc2MzkzNy41MC4wLjA.",
+                "skill": [
+                    {
+                        "name": "nodejs"
+                    },
+                    {
+                        "name": "express"
+                    },
+                    {
+                        "name": "react"
+                    },
+                    {
+                        "name": "sockets"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "title": "Ecomerse",
+                "description": "Se utilizó la tecnología de React con TypeScript para desarrollar un diseño intuitivo y atractivo con el objetivo de que el usuario se sienta cómodo. Se implementaron rutas y rutas protegidas para usuarios logueados, y se gestionaron las bibliotecas de Redux, Axios, Zustand y otras más. El proyecto aún está en desarrollo, donde se está implementando React Query para el manejo de caché y se está añadiendo capacidad de respuesta para dispositivos móviles",
+                "img_link": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Ftienedadetecnologia.png?alt=media&token=41cf627f-1489-46a1-b2a5-c7bc7633c663&_gl=1*17wox2z*_ga*NDI2MTc5MzEwLjE2OTUzMzM2Mzk.*_ga_CW55HF8NVT*MTY5Nzc2MzM4OS4zLjEuMTY5Nzc2Mzk4MC43LjAuMA..",
+                "link_git": "https://github.com/rom213/e-comerse.git",
+                "link_doc": "https://tiendatecnologica.netlify.app/",
+                "skill": [
+                    {
+                        "name": "react Ts"
+                    },
+                    {
+                        "name": "redux"
+                    },
+                    {
+                        "name": "Zustand"
+                    },
+                    {
+                        "name": "api"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "title": "AppRestaurant",
+                "description": "En este proyecto se desarrollo una API, para la gestión de restaurantes en el backend. La API permite la administración de reservaciones, usuarios, comidas, pedidos y comentarios sobre la calidad del servicio en los restaurantes. Además, se brindará la funcionalidad de crear usuarios, lo cual les otorgará diversas acciones, como realizar pedidos y dejar comentario de la calidad del servicio.",
+                "img_link": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Frestaurant.jpg?alt=media&token=6a9fbf67-b48a-400a-9c85-6a8359f1eee1&_gl=1*191nvit*_ga*NDI2MTc5MzEwLjE2OTUzMzM2Mzk.*_ga_CW55HF8NVT*MTY5Nzc2MzM4OS4zLjEuMTY5Nzc2NDAyMC41OC4wLjA.",
+                "link_git": "https://github.com/rom213/serverRestaurant.git",
+                "link_doc": "https://apirestaurant.onrender.com/api/v1/docs/",
+                "skill": [
+                    {
+                        "name": "react Ts"
+                    },
+                    {
+                        "name": "redux"
+                    },
+                    {
+                        "name": "Zustand"
+                    },
+                    {
+                        "name": "api"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "title": "appi-pelis",
+                "description": "Este proyecto fue creado para ser aplicado en un frontend. Es una aplicación donde los usuarios pueden registrarse y acceder mediante un token. Las películas, géneros y personajes tienen sus respectivas imágenes, las cuales se cargan en Firebase. se establecio una base de datos actualizada MySQL2 que tiene sus respectivas migraciones y seeders, además de tener relaciones entre tablas de 1 a 1, 1 a muchos y muchos a muchos.",
+                "img_link":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2FPelis-deportivas.png?alt=media&token=e3734973-0311-4d58-9627-56b73d046006&_gl=1*1hkq5q1*_ga*NDI2MTc5MzEwLjE2OTUzMzM2Mzk.*_ga_CW55HF8NVT*MTY5Nzc2MzM4OS4zLjEuMTY5Nzc2NjE5NC40MC4wLjA.",
+                "link_git": "https://github.com/rom213/apiPelisNet.git",
+                "link_doc": "https://swaggerpelis.onrender.com/api/v1/docs/",
+                "skill": [
+                    {
+                        "name": "nodejs"
+                    },
+                    {
+                        "name": "express"
+                    },
+                    {
+                        "name": "Mysql2"
+                    },
+                    {
+                        "name": "swagger"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "title": "World Rick and Morty",
+                "description": "En el proyecto se ha incorporado un buscador similar al de Google, que despliega opciones de búsqueda a medida que se escribe. Además, se ha agregado un modo noche sencillo para mejorar la estética. Para la implementación de la paginación, se ha creado la funcionalidad correspondiente. Adicionalmente, se ha realizado el consumo de la API de Rick and Morty.",
+                "img_link":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Frickandmorty.png?alt=media&token=ddd96999-9e5e-4d96-b192-789e7b905202&_gl=1*k7ejjs*_ga*NDI2MTc5MzEwLjE2OTUzMzM2Mzk.*_ga_CW55HF8NVT*MTY5Nzc2MzM4OS4zLjEuMTY5Nzc2NDA5Ny41OC4wLjA.",
+                "link_git": "https://github.com/rom213/ryck-y-Morty.git",
+                "link_doc": "https://worldrickandmorty.netlify.app",
+                "skill": [
+                    {
+                        "name": "nodejs"
+                    },
+                    {
+                        "name": "express"
+                    },
+                    {
+                        "name": "Mysql2"
+                    },
+                    {
+                        "name": "swagger"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "title": "Ecomerse store",
+                "description": "este proyecto de front se realizo css html javaScript, tienes secciones de ropa por categorias, un usuario cualquiera puede calcular el precio de la ropa agregando la prenda al carrito",
+                "img_link":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Ftienda.png?alt=media&token=7d0b541f-1061-4375-864f-08b3dbd9453d&_gl=1*1mu7t4w*_ga*NDI2MTc5MzEwLjE2OTUzMzM2Mzk.*_ga_CW55HF8NVT*MTY5Nzc2MzM4OS4zLjEuMTY5Nzc2NDY2Mi42MC4wLjA.",
+                "link_git": "https://github.com/rom213/ecomerse.git",
+                "link_doc": "https://tiendaacademlo.netlify.app/#sec_1",
+                "skill": [
+                    {
+                        "name": "js"
+                    },
+                    {
+                        "name": "html"
+                    },
+                    {
+                        "name": "css"
+                    }
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "company": "ACADEMLO",
+                "position": "Desarrollador backend",
+                "proyect_link":"https://certiwise.co/verify/14",
+                "location": "Santiago de Querétaro, México",
+                "mode": "remoto",
+                "description": "- Proyectos en desarrollo con node js en nest js.\n- Testing e2e y uniTesting;\n- Creación de rutas, paginación autenticación uso de buenas prácticas de programación.\n- Proyecto en desarrollo con php y laravel\n- Uso base de datos mySQL, migration and seeders,\n- Creación de rutas autenticadas, asignación de roles"
+            }
+        ]
+    },
+    "english": {
+        "description": {
+            "name": "Romario Ariza",
+            "role": "Full Stack Developer",
+            "subDescription": "I build accessible and inclusive digital products and experiences for the web",
+            "description": "I am a full stack programmer with extensive experience in various technologies. In the frontend, I have strong knowledge of JavaScript, CSS, HTML, React, and TypeScript. In the backend, my specialization includes API development, socket management, authentication system implementation, environment variable configuration, error handling, and working with relational databases, particularly PostgreSQL. <br/>My commitment to staying up-to-date with the latest industry trends allows me to provide innovative and efficient solutions for any project. I am always on the lookout for new technologies and techniques to enhance the quality and performance of my work."
+        },
+        "projects": [
+            {
+                "id": "1",
+                "title": "BlogPost",
+                "description": "This project focuses on the development of a blog where users can post and share their posts with other application users. Anyone can register and log in using their email to create posts and comment on other users' posts. Express framework was used in the implementation, which facilitated the creation of the API.",
+                "skills": [
+                    {
+                        "name": "nodejs"
+                    },
+                    {
+                        "name": "express"
+                    },
+                    {
+                        "name": "react"
+                    },
+                    {
+                        "name": "sockets"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "title": "E-commerce of Technology Store",
+                "description": "React with TypeScript technology was used to develop an intuitive and attractive design with the aim of providing user comfort. Routes and protected routes for logged-in users were implemented, and libraries like Redux, Axios, Zustand, and others were managed. The project is still in development, with React Query being implemented for cache management and mobile responsiveness being added.",
+                "skills": [
+                    {
+                        "name": "react Ts"
+                    },
+                    {
+                        "name": "redux"
+                    },
+                    {
+                        "name": "Zustand"
+                    },
+                    {
+                        "name": "api"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "title": "AppRestaurant",
+                "description": "In this project, an API was developed for restaurant management on the backend. The API allows the administration of reservations, users, meals, orders, and feedback on service quality in restaurants. Additionally, user creation functionality is provided, allowing various actions such as placing orders and leaving service quality feedback.",
+                "skills": [
+                    {
+                        "name": "react Ts"
+                    },
+                    {
+                        "name": "redux"
+                    },
+                    {
+                        "name": "Zustand"
+                    },
+                    {
+                        "name": "api"
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "title": "appi-pelis",
+                "description": "This project was created for frontend application. It is an application where users can register and access through a token. Movies, genres, and characters have their respective images, which are hosted on Firebase. An updated MySQL2 database was established with migrations and seeders, as well as table relationships of one-to-one, one-to-many, and many-to-many.",
+                "skills": [
+                    {
+                        "name": "nodejs"
+                    },
+                    {
+                        "name": "express"
+                    },
+                    {
+                        "name": "Mysql2"
+                    },
+                    {
+                        "name": "swagger"
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "title": "World Rick and Morty",
+                "description": "The project incorporates a search function similar to Google, which displays search options as you type. Additionally, a simple night mode has been added to improve aesthetics. Pagination functionality has been implemented, and the Rick and Morty API is consumed.",
+                "skills": [
+                    {
+                        "name": "nodejs"
+                    },
+                    {
+                        "name": "express"
+                    },
+                    {
+                        "name": "Mysql2"
+                    },
+                    {
+                        "name": "swagger"
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "title": "E-commerce Store",
+                "description": "This frontend project was created using CSS, HTML, and JavaScript. It includes clothing sections categorized by types, and any user can calculate the price of clothing by adding items to the cart.",
+                "skills": [
+                    {
+                        "name": "js"
+                    },
+                    {
+                        "name": "html"
+                    },
+                    {
+                        "name": "css"
+                    }
+                ]
+            }
+        ],
+        "experience": [
+            {
+                "company": "ACADEMLO",
+                "position": "Backend Developer",
+                "location": "Santiago de Querétaro, Mexico",
+                "mode": "remote",
+                "description": "- Projects in development with Node.js in Nest.js.\n- E2E and unit testing;\n- Route creation, pagination, authentication, and use of programming best practices.\n- Project in development with PHP and Laravel\n- Use of MySQL database, migrations, and seeders,\n- Creation of authenticated routes, role assignment"
+            }
+        ]
+    }
+}

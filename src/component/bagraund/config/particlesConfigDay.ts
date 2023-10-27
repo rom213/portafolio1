@@ -4,7 +4,7 @@ const particlesConfig2:any = {
       "value": 80,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 5000
       }
     },
     "color": {

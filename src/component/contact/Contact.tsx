@@ -1,4 +1,3 @@
-
 import "./contact.css";
 import { useState, ChangeEvent, FormEvent } from "react";
 
@@ -10,21 +9,22 @@ type FormData = {
 
 const Contact = () => {
   const [formData, setFormData] = useState<FormData>({
-    name: '',
-    email: '',
-    text: '',
+    name: "",
+    email: "",
+    text: "",
   });
 
+  const deleteSubmit = () => {
+    setFormData({
+      name: "",
+      email: "",
+      text: "",
+    });
+  };
 
-const deleteSubmit=()=>{
-  setFormData({
-    name: '',
-    email: '',
-    text: '',
-  });
-}
-
-  const handleChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = event.target;
     setFormData((prevData) => ({
       ...prevData,
@@ -36,15 +36,14 @@ const deleteSubmit=()=>{
     event.preventDefault();
     console.log(formData);
     setFormData({
-      name: '',
-      email: '',
-      text: '',
+      name: "",
+      email: "",
+      text: "",
     });
   };
 
-
   return (
-<div> 
+    <div>
       <form onSubmit={handleSubmit}>
         <h3>contact</h3>
         <label htmlFor="name">
@@ -76,13 +75,22 @@ const deleteSubmit=()=>{
           cols={10}
           rows={5}
         ></textarea>
-        <button  type="submit" className="btForm">
-        <a className="OPACIOTI"    onClick={()=>deleteSubmit} href={`mailto:romarioariza@gmail.com?subject=${encodeURIComponent(formData.name)}&body=${encodeURIComponent(formData.email + '\n\n' + formData.text)}`}>enviar</a>
-        <h2 className="bt">ENVIAR</h2>
+        <button type="submit" className="btForm">
+          <a
+            className="OPACIOTI"
+            onClick={() => deleteSubmit}
+            href={`mailto:romarioariza@gmail.com?subject=${encodeURIComponent(
+              formData.name
+            )}&body=${encodeURIComponent(
+              formData.email + "\n\n" + formData.text
+            )}`}
+          >
+            enviar
+          </a>
+          <h2 className="bt">ENVIAR</h2>
         </button>
-       
       </form>
-      </div>
+    </div>
   );
 };
 
