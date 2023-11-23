@@ -4,7 +4,7 @@
             "name": "Romario Ariza",
             "rol": "Full Stack Developer",
             "subDescription": "Construyo productos y experiencias digitales accesibles e inclusivos para la web",
-            "description": "Soy un programador full stack con amplia experiencia en diversas tecnologías. En el ámbito frontend, cuento con sólidos conocimientos en JavaScript, CSS, HTML, React y TypeScript. En el backend, mi especialización abarca el desarrollo de APIs, la gestión de sockets, la implementación de sistemas de autenticación, la configuración de variables de entorno, la gestión de errores y el trabajo con bases de datos relacionales, en particular PostgreSQL. <br/>Mi compromiso con la actualización constante en las últimas tendencias de la industria me permite ofrecer soluciones innovadoras y eficientes para cualquier proyecto. Siempre estoy en la búsqueda de nuevas tecnologías y técnicas para mejorar la calidad y el rendimiento de mi trabajo."
+            "description": "Como programador full stack, destaco en el desarrollo frontend con JavaScript, CSS, HTML, React y TypeScript. En el backend, me especializo en APIs, gestión de sockets, sistemas de autenticación, configuración de variables de entorno, gestión de errores y bases de datos relacionales, especialmente PostgreSQL. Mi compromiso con las últimas tendencias me permite ofrecer soluciones innovadoras y eficientes. Siempre busco nuevas tecnologías para mejorar la calidad y el rendimiento de mis proyectos."
         },
         "projects": [
             {
@@ -16,16 +16,13 @@
                 "img_link": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fblog.png?alt=media&token=912e08ea-20d1-4651-a787-f7357e5045f2&_gl=1*hpo1tb*_ga*NDI2MTc5MzEwLjE2OTUzMzM2Mzk.*_ga_CW55HF8NVT*MTY5Nzc2MzM4OS4zLjEuMTY5Nzc2MzkzNy41MC4wLjA.",
                 "skill": [
                     {
-                        "name": "nodejs"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                     },
                     {
-                        "name": "express"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2FReact.svg.png?alt=media&token=37982f72-96f2-4c7b-bf5b-9371aa61a35c"
                     },
                     {
-                        "name": "react"
-                    },
-                    {
-                        "name": "sockets"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fsoket.io.png?alt=media&token=8e383999-936b-4c26-84aa-63b723c3bb43&_gl=1*1fgzb5*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTA2Ni42MC4wLjA."
                     }
                 ]
             },
@@ -38,16 +35,13 @@
                 "link_doc": "https://tiendatecnologica.netlify.app/",
                 "skill": [
                     {
-                        "name": "react Ts"
+                        "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2FReact.svg.png?alt=media&token=37982f72-96f2-4c7b-bf5b-9371aa61a35c"
                     },
                     {
-                        "name": "redux"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fredux.png?alt=media&token=2e08691a-f985-4ed8-b076-6a3091279408&_gl=1*1sfn3ok*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTEyMC42LjAuMA.."
                     },
                     {
-                        "name": "Zustand"
-                    },
-                    {
-                        "name": "api"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fzustand.jfif?alt=media&token=30cf30c0-8c24-461c-8437-c36466fc1012&_gl=1*1ab1o3u*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTMyMC41OS4wLjA."
                     }
                 ]
             },
@@ -57,19 +51,16 @@
                 "description": "En este proyecto se desarrollo una API, para la gestión de restaurantes en el backend. La API permite la administración de reservaciones, usuarios, comidas, pedidos y comentarios sobre la calidad del servicio en los restaurantes. Además, se brindará la funcionalidad de crear usuarios, lo cual les otorgará diversas acciones, como realizar pedidos y dejar comentario de la calidad del servicio.",
                 "img_link": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Frestaurant.jpg?alt=media&token=6a9fbf67-b48a-400a-9c85-6a8359f1eee1&_gl=1*191nvit*_ga*NDI2MTc5MzEwLjE2OTUzMzM2Mzk.*_ga_CW55HF8NVT*MTY5Nzc2MzM4OS4zLjEuMTY5Nzc2NDAyMC41OC4wLjA.",
                 "link_git": "https://github.com/rom213/serverRestaurant.git",
-                "link_doc": "https://apirestaurant.onrender.com/api/v1/docs/",
+                "link_doc": "https://apirestaurant.onrender.com/https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fapi.jfif?alt=media&token=c40b2811-897d-4567-98db-f44b5e8d4c9a&_gl=1*lr3wyp*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTQ2NC42MC4wLjA./v1/docs/",
                 "skill": [
                     {
-                        "name": "react Ts"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                     },
                     {
-                        "name": "redux"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fmysql.png?alt=media&token=83a91588-dd6b-49b0-b23b-5d34e70d2ad0&_gl=1*12dlh12*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTU2Ny41Ny4wLjA."
                     },
                     {
-                        "name": "Zustand"
-                    },
-                    {
-                        "name": "api"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fsoket.io.png?alt=media&token=8e383999-936b-4c26-84aa-63b723c3bb43&_gl=1*1fgzb5*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTA2Ni42MC4wLjA."
                     }
                 ]
             },
@@ -82,16 +73,13 @@
                 "link_doc": "https://swaggerpelis.onrender.com/api/v1/docs/",
                 "skill": [
                     {
-                        "name": "nodejs"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                     },
                     {
-                        "name": "express"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fmysql.png?alt=media&token=83a91588-dd6b-49b0-b23b-5d34e70d2ad0&_gl=1*12dlh12*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTU2Ny41Ny4wLjA."
                     },
                     {
-                        "name": "Mysql2"
-                    },
-                    {
-                        "name": "swagger"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fswagger.png?alt=media&token=35754a20-0ba9-44e9-ac78-00967ebe86e5&_gl=1*1e8q2le*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTYzNC42MC4wLjA."
                     }
                 ]
             },
@@ -104,16 +92,13 @@
                 "link_doc": "https://worldrickandmorty.netlify.app",
                 "skill": [
                     {
-                        "name": "nodejs"
+                        "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2FReact.svg.png?alt=media&token=37982f72-96f2-4c7b-bf5b-9371aa61a35c"
                     },
                     {
-                        "name": "express"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fredux.png?alt=media&token=2e08691a-f985-4ed8-b076-6a3091279408&_gl=1*1sfn3ok*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTEyMC42LjAuMA.."
                     },
                     {
-                        "name": "Mysql2"
-                    },
-                    {
-                        "name": "swagger"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fzustand.jfif?alt=media&token=30cf30c0-8c24-461c-8437-c36466fc1012&_gl=1*1ab1o3u*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTMyMC41OS4wLjA."
                     }
                 ]
             },
@@ -126,25 +111,44 @@
                 "link_doc": "https://tiendaacademlo.netlify.app/#sec_1",
                 "skill": [
                     {
-                        "name": "js"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fjavascript%20logo.png?alt=media&token=00a76c31-e2c0-4125-a593-60255bb8de44"
                     },
                     {
-                        "name": "html"
+                        "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fcss.png?alt=media&token=8c8c58f9-f3af-4399-aafc-7a6f9fc53887"
                     },
                     {
-                        "name": "css"
+                        "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fhtml.png?alt=media&token=bddbb9d0-efd9-4878-a991-5caab6cebda6"
                     }
                 ]
             }
         ],
         "experience": [
             {
+                "fecha":"marzo-ago 2023",
                 "company": "ACADEMLO",
                 "position": "Desarrollador backend",
                 "proyect_link":"https://certiwise.co/verify/14",
                 "location": "Santiago de Querétaro, México",
                 "mode": "remoto",
-                "description": "- Proyectos en desarrollo con node js en nest js.\n- Testing e2e y uniTesting;\n- Creación de rutas, paginación autenticación uso de buenas prácticas de programación.\n- Proyecto en desarrollo con php y laravel\n- Uso base de datos mySQL, migration and seeders,\n- Creación de rutas autenticadas, asignación de roles"
+                "description": "En el marco de una colaboración exitosa con el equipo de desarrollo backend de Academlo, se ha logrado la implementación de una API para Certiwise, una plataforma web especializada en la emisión de certificados válidos. Este proyecto fue llevado a cabo con un enfoque colaborativo y eficiente, haciendo uso de herramientas modernas como Git para facilitar el trabajo en equipo.",
+                "skills": [
+                    {
+                        "name":"nestjs"
+                    },
+                    {
+                        "name":"laravel"
+                    },
+                    {
+                        "name":"testing"
+                    },
+                    {
+                        "name":"aws s3"
+                    },
+                    {
+                        "name":"php"
+                    }
+                    
+                ]
             }
         ]
     },
@@ -162,16 +166,16 @@
                 "description": "This project focuses on the development of a blog where users can post and share their posts with other application users. Anyone can register and log in using their email to create posts and comment on other users' posts. Express framework was used in the implementation, which facilitated the creation of the API.",
                 "skills": [
                     {
-                        "name": "nodejs"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2F1200px-Node.js_logo.svg.png?alt=media&token=1c611c6a-bba4-4a83-8ed0-52e73850da13&_gl=1*nos1ps*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDYzMS43LjAuMA.."
                     },
                     {
-                        "name": "express"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                     },
                     {
-                        "name": "react"
+                        "name": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FReact&psig=AOvVaw11I-a8H9VeSA6SVN0MQLAx&ust=1700083794494000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjPwee3xIIDFQAAAAAdAAAAABAE"
                     },
                     {
-                        "name": "sockets"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fsoket.io.png?alt=media&token=8e383999-936b-4c26-84aa-63b723c3bb43&_gl=1*1fgzb5*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTA2Ni42MC4wLjA."
                     }
                 ]
             },
@@ -181,16 +185,16 @@
                 "description": "React with TypeScript technology was used to develop an intuitive and attractive design with the aim of providing user comfort. Routes and protected routes for logged-in users were implemented, and libraries like Redux, Axios, Zustand, and others were managed. The project is still in development, with React Query being implemented for cache management and mobile responsiveness being added.",
                 "skills": [
                     {
-                        "name": "react Ts"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Freact.png?alt=media&token=225b0ecc-f19e-4740-b73e-8aabf3f2a829&_gl=1*1cft40n*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDk3NS42MC4wLjA. Ts"
                     },
                     {
-                        "name": "redux"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fredux.png?alt=media&token=2e08691a-f985-4ed8-b076-6a3091279408&_gl=1*1sfn3ok*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTEyMC42LjAuMA.."
                     },
                     {
-                        "name": "Zustand"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fzustand.jfif?alt=media&token=30cf30c0-8c24-461c-8437-c36466fc1012&_gl=1*1ab1o3u*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTMyMC41OS4wLjA."
                     },
                     {
-                        "name": "api"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fapi.jfif?alt=media&token=c40b2811-897d-4567-98db-f44b5e8d4c9a&_gl=1*lr3wyp*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTQ2NC42MC4wLjA."
                     }
                 ]
             },
@@ -200,16 +204,16 @@
                 "description": "In this project, an API was developed for restaurant management on the backend. The API allows the administration of reservations, users, meals, orders, and feedback on service quality in restaurants. Additionally, user creation functionality is provided, allowing various actions such as placing orders and leaving service quality feedback.",
                 "skills": [
                     {
-                        "name": "react Ts"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Freact.png?alt=media&token=225b0ecc-f19e-4740-b73e-8aabf3f2a829&_gl=1*1cft40n*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDk3NS42MC4wLjA. Ts"
                     },
                     {
-                        "name": "redux"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fredux.png?alt=media&token=2e08691a-f985-4ed8-b076-6a3091279408&_gl=1*1sfn3ok*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTEyMC42LjAuMA.."
                     },
                     {
-                        "name": "Zustand"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fzustand.jfif?alt=media&token=30cf30c0-8c24-461c-8437-c36466fc1012&_gl=1*1ab1o3u*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTMyMC41OS4wLjA."
                     },
                     {
-                        "name": "api"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fapi.jfif?alt=media&token=c40b2811-897d-4567-98db-f44b5e8d4c9a&_gl=1*lr3wyp*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTQ2NC42MC4wLjA."
                     }
                 ]
             },
@@ -219,16 +223,16 @@
                 "description": "This project was created for frontend application. It is an application where users can register and access through a token. Movies, genres, and characters have their respective images, which are hosted on Firebase. An updated MySQL2 database was established with migrations and seeders, as well as table relationships of one-to-one, one-to-many, and many-to-many.",
                 "skills": [
                     {
-                        "name": "nodejs"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2F1200px-Node.js_logo.svg.png?alt=media&token=1c611c6a-bba4-4a83-8ed0-52e73850da13&_gl=1*nos1ps*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDYzMS43LjAuMA.."
                     },
                     {
-                        "name": "express"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                     },
                     {
-                        "name": "Mysql2"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fmysql.png?alt=media&token=83a91588-dd6b-49b0-b23b-5d34e70d2ad0&_gl=1*12dlh12*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTU2Ny41Ny4wLjA."
                     },
                     {
-                        "name": "swagger"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fswagger.png?alt=media&token=35754a20-0ba9-44e9-ac78-00967ebe86e5&_gl=1*1e8q2le*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTYzNC42MC4wLjA."
                     }
                 ]
             },
@@ -238,16 +242,16 @@
                 "description": "The project incorporates a search function similar to Google, which displays search options as you type. Additionally, a simple night mode has been added to improve aesthetics. Pagination functionality has been implemented, and the Rick and Morty API is consumed.",
                 "skills": [
                     {
-                        "name": "nodejs"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2F1200px-Node.js_logo.svg.png?alt=media&token=1c611c6a-bba4-4a83-8ed0-52e73850da13&_gl=1*nos1ps*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDYzMS43LjAuMA.."
                     },
                     {
-                        "name": "express"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                     },
                     {
-                        "name": "Mysql2"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fmysql.png?alt=media&token=83a91588-dd6b-49b0-b23b-5d34e70d2ad0&_gl=1*12dlh12*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTU2Ny41Ny4wLjA."
                     },
                     {
-                        "name": "swagger"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fswagger.png?alt=media&token=35754a20-0ba9-44e9-ac78-00967ebe86e5&_gl=1*1e8q2le*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTYzNC42MC4wLjA."
                     }
                 ]
             },
@@ -257,13 +261,7 @@
                 "description": "This frontend project was created using CSS, HTML, and JavaScript. It includes clothing sections categorized by types, and any user can calculate the price of clothing by adding items to the cart.",
                 "skills": [
                     {
-                        "name": "js"
-                    },
-                    {
-                        "name": "html"
-                    },
-                    {
-                        "name": "css"
+                        "name": "https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FhtCssJs.png?alt=media&token=5cd14015-ac04-4e21-8891-47b8b81ec4e3&_gl=1*1qztpfw*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTc1Ny42MC4wLjA."
                     }
                 ]
             }

@@ -19,19 +19,19 @@
         {
             "id":"1",
             "title":"BlogPost",
-            "description":"Este proyecto se centra en el desarrollo de un blog en el que los usuarios pueden publicar sus posts y compartirlos con otros usuarios de la aplicación. Cualquier persona puede registrarse e iniciar sesión utilizando su correo electrónico para crear publicaciones y comentar los posts de otros usuarios. en la implementación, se utilizó el framework Express, el cual facilitó la creación de la Api.",
+            "description":"Este proyecto se centra en el desarrollo de un blog en el que los usuarios pueden publicar sus posts y compartirlos con otros usuarios de la aplicación. Cualquier persona puede registrarse e iniciar sesión utilizando su correo electrónico para crear publicaciones y comentar los posts de otros usuarios. en la implementación, se utilizó el framework https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA., el cual facilitó la creación de la Api.",
             "skill":[
                 {
-                    "name":"nodejs"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2F1200px-Node.js_logo.svg.png?alt=media&token=1c611c6a-bba4-4a83-8ed0-52e73850da13&_gl=1*nos1ps*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDYzMS43LjAuMA.."
                 },
                 {
-                    "name":"express"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                 },
                 {
-                    "name":"react"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Freact.png?alt=media&token=225b0ecc-f19e-4740-b73e-8aabf3f2a829&_gl=1*1cft40n*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDk3NS42MC4wLjA."
                 },
                 {
-                    "name":"sockets"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fsoket.io.png?alt=media&token=8e383999-936b-4c26-84aa-63b723c3bb43&_gl=1*1fgzb5*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTA2Ni42MC4wLjA."
                 }
             ]
         },
@@ -41,16 +41,16 @@
             "description":"Se utilizó la tecnología de React con TypeScript para desarrollar un diseño intuitivo y atractivo con el objetivo de que el usuario se sienta cómodo. Se implementaron rutas y rutas protegidas para usuarios logueados, y se gestionaron las bibliotecas de Redux, Axios, Zustand y otras más. El proyecto aún está en desarrollo, donde se está implementando React Query para el manejo de caché y se está añadiendo capacidad de respuesta para dispositivos móviles",
             "skill":[
                 {
-                    "name":"react Ts"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Freact.png?alt=media&token=225b0ecc-f19e-4740-b73e-8aabf3f2a829&_gl=1*1cft40n*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDk3NS42MC4wLjA. Ts"
                 },
                 {
-                    "name":"redux"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fredux.png?alt=media&token=2e08691a-f985-4ed8-b076-6a3091279408&_gl=1*1sfn3ok*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTEyMC42LjAuMA.."
                 },
                 {
-                    "name":"Zustand"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fzustand.jfif?alt=media&token=30cf30c0-8c24-461c-8437-c36466fc1012&_gl=1*1ab1o3u*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTMyMC41OS4wLjA."
                 },
                 {
-                    "name":"api"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fapi.jfif?alt=media&token=c40b2811-897d-4567-98db-f44b5e8d4c9a&_gl=1*lr3wyp*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTQ2NC42MC4wLjA."
                 }
             ]
         },
@@ -60,16 +60,16 @@
             "description":"En este proyecto se desarrollo una API, para la gestión de restaurantes en el backend. La API permite la administración de reservaciones, usuarios, comidas, pedidos y comentarios sobre la calidad del servicio en los restaurantes. Además, se brindará la funcionalidad de crear usuarios, lo cual les otorgará diversas acciones, como realizar pedidos y dejar comentario de la calidad del servicio.",
             "skill":[
                 {
-                    "name":"react Ts"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Freact.png?alt=media&token=225b0ecc-f19e-4740-b73e-8aabf3f2a829&_gl=1*1cft40n*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDk3NS42MC4wLjA. Ts"
                 },
                 {
-                    "name":"redux"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fredux.png?alt=media&token=2e08691a-f985-4ed8-b076-6a3091279408&_gl=1*1sfn3ok*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTEyMC42LjAuMA.."
                 },
                 {
-                    "name":"Zustand"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fzustand.jfif?alt=media&token=30cf30c0-8c24-461c-8437-c36466fc1012&_gl=1*1ab1o3u*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTMyMC41OS4wLjA."
                 },
                 {
-                    "name":"api"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fapi.jfif?alt=media&token=c40b2811-897d-4567-98db-f44b5e8d4c9a&_gl=1*lr3wyp*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTQ2NC42MC4wLjA."
                 }
             ]
         },
@@ -79,16 +79,16 @@
             "description":"Este proyecto fue creado para ser aplicado en un frontend. Es una aplicación donde los usuarios pueden registrarse y acceder mediante un token. Las películas, géneros y personajes tienen sus respectivas imágenes, las cuales se cargan en Firebase. se establecio una base de datos actualizada MySQL2 que tiene sus respectivas migraciones y seeders, además de tener relaciones entre tablas de 1 a 1, 1 a muchos y muchos a muchos.",
             "skill":[
                 {
-                    "name":"nodejs"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2F1200px-Node.js_logo.svg.png?alt=media&token=1c611c6a-bba4-4a83-8ed0-52e73850da13&_gl=1*nos1ps*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDYzMS43LjAuMA.."
                 },
                 {
-                    "name":"express"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                 },
                 {
-                    "name":"Mysql2"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fmysql.png?alt=media&token=83a91588-dd6b-49b0-b23b-5d34e70d2ad0&_gl=1*12dlh12*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTU2Ny41Ny4wLjA."
                 },
                 {
-                    "name":"swagger"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fswagger.png?alt=media&token=35754a20-0ba9-44e9-ac78-00967ebe86e5&_gl=1*1e8q2le*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTYzNC42MC4wLjA."
                 }
             ]
         },
@@ -98,16 +98,16 @@
             "description":"En el proyecto se ha incorporado un buscador similar al de Google, que despliega opciones de búsqueda a medida que se escribe. Además, se ha agregado un modo noche sencillo para mejorar la estética. Para la implementación de la paginación, se ha creado la funcionalidad correspondiente. Adicionalmente, se ha realizado el consumo de la API de Rick and Morty.",
             "skill":[
                 {
-                    "name":"nodejs"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2F1200px-Node.js_logo.svg.png?alt=media&token=1c611c6a-bba4-4a83-8ed0-52e73850da13&_gl=1*nos1ps*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDYzMS43LjAuMA.."
                 },
                 {
-                    "name":"express"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FExpressjs.svg?alt=media&token=f6f14442-8526-4031-bb91-16cfd3f4b02e&_gl=1*ej4wmu*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MDgyOS42MC4wLjA."
                 },
                 {
-                    "name":"Mysql2"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fmysql.png?alt=media&token=83a91588-dd6b-49b0-b23b-5d34e70d2ad0&_gl=1*12dlh12*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTU2Ny41Ny4wLjA."
                 },
                 {
-                    "name":"swagger"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2Fswagger.png?alt=media&token=35754a20-0ba9-44e9-ac78-00967ebe86e5&_gl=1*1e8q2le*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTYzNC42MC4wLjA."
                 }
             ]
         },
@@ -117,13 +117,7 @@
             "description":"este proyecto de front se realizo css html javaScript, tienes secciones de ropa por categorias, un usuario cualquiera puede calcular el precio de la ropa agregando la prenda al carrito",
             "skill":[
                 {
-                    "name":"js"
-                },
-                {
-                    "name":"html"
-                },
-                {
-                    "name":"css"
+                    "name":"https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Fskills%2FhtCssJs.png?alt=media&token=5cd14015-ac04-4e21-8891-47b8b81ec4e3&_gl=1*fm8atj*_ga*Nzk0NzMyODgwLjE2OTkwNTk0OTY.*_ga_CW55HF8NVT*MTY5OTA1OTQ5OC4xLjEuMTY5OTA2MTc1Ny42MC4wLjA."
                 }
             ]
         }

@@ -9,7 +9,6 @@ import data from "../../json/data.json";
 
 const Computer = () => {
   const [lineSelect, setlineSelect] = useState<number>(1);
-  const [over, setover] = useState<boolean>(true);
   const [lineHover, setlineHover] = useState<number>();
   const { scrollY } = useScroll();
 
@@ -44,20 +43,38 @@ const Computer = () => {
               onClick={() => {
                 scrollToSection(seccion1Ref);
               }}
-              className={`${
-                lineSelect == 1 ? "contentHeaderSelect" : "contentHeader"
-              }`}
+              className={`${lineSelect == 1 ? "contentHeaderSelect" : "contentHeader"
+                }`}
             >
               <div
-                className={`${
-                  lineHover == 1
-                    ? "hoverline"
-                    : scrollY < 400
+                className={`${lineHover == 1
+                  ? "hoverline"
+                  : scrollY < 400
                     ? "lineSelect"
                     : "line"
-                }`}
+                  }`}
               ></div>
               <div>About</div>
+            </div>
+
+            <div
+              onMouseOut={() => setlineHover(0)}
+              onMouseOver={() => setlineHover(6)}
+              onClick={() => {
+                // scrollToSection(seccion2Ref);
+              }}
+              className={`${lineSelect == 6 ? "contentHeaderSelect" : "contentHeader"
+                }`}
+            >
+              <div
+                className={`${lineHover == 6
+                  ? "hoverline"
+                  : scrollY > 200 && scrollY < 1200
+                    ? "lineSelect"
+                    : "line"
+                  }`}
+              ></div>
+              <div>Experience</div>
             </div>
             <div
               onMouseOut={() => setlineHover(0)}
@@ -65,41 +82,18 @@ const Computer = () => {
               onClick={() => {
                 scrollToSection(seccion2Ref);
               }}
-              className={`${
-                lineSelect == 2 ? "contentHeaderSelect" : "contentHeader"
-              }`}
+              className={`${lineSelect == 2 ? "contentHeaderSelect" : "contentHeader"
+                }`}
             >
               <div
-                className={`${
-                  lineHover == 2
-                    ? "hoverline"
-                    : scrollY > 400 && scrollY < 2300
+                className={`${lineHover == 2
+                  ? "hoverline"
+                  : scrollY > 400 && scrollY < 2300
                     ? "lineSelect"
                     : "line"
-                }`}
+                  }`}
               ></div>
               <div>Proyects</div>
-            </div>
-            <div
-              onMouseOut={() => setlineHover(0)}
-              onMouseOver={() => setlineHover(3)}
-              onClick={() => {
-                scrollToSection(seccion3Ref);
-              }}
-              className={`${
-                lineSelect == 3 ? "contentHeaderSelect" : "contentHeader"
-              }`}
-            >
-              <div
-                className={`${
-                  lineHover == 3
-                    ? "hoverline"
-                    : scrollY > 2300 && scrollY < 2700
-                    ? "lineSelect"
-                    : "line"
-                }`}
-              ></div>
-              <div>Skils</div>
             </div>
             <div
               onMouseOut={() => setlineHover(0)}
@@ -108,18 +102,16 @@ const Computer = () => {
                 setlineSelect(4);
                 scrollToSection(seccion4Ref);
               }}
-              className={`${
-                lineSelect == 4 ? "contentHeaderSelect" : "contentHeader"
-              }`}
+              className={`${lineSelect == 4 ? "contentHeaderSelect" : "contentHeader"
+                }`}
             >
               <div
-                className={`${
-                  lineHover == 4
-                    ? "hoverline"
-                    : scrollY > 2700
+                className={`${lineHover == 4
+                  ? "hoverline"
+                  : scrollY > 2700
                     ? "lineSelect"
                     : "line"
-                }`}
+                  }`}
               ></div>
               <div>Contact me</div>
             </div>
@@ -144,44 +136,90 @@ const Computer = () => {
       </div>
 
       <div className="sectionProyects">
-        <div ref={seccion1Ref} className="text">
-          I am a seasoned full stack programmer with expertise in frontend
-          technologies such as JavaScript, CSS, HTML, React, and TypeScript. On
-          the backend, I specialize in API development, socket handling,
-          authentication, environment variables, error management, and working
-          with relational databases, particularly PostgreSQL.
-          <br />
-          <br />
-          My commitment to staying up-to-date with the latest industry trends
-          ensures that I can provide innovative and efficient solutions for any
-          project. I am constantly exploring new technologies and techniques to
-          enhance the quality and performance of my work.
+        <div ref={seccion1Ref} className="text" style={{textAlign:"justify"}}>
+          {data.español.description.description}
         </div>
+
+
+
+        <div ref={seccion2Ref} className="container">
+          {data.español.experience.map((info) => {
+            return (
+              <div className="card">
+                <div className="face0 face1" style={{ height: "210px" }}>
+                  <div className="cardExperience">
+                    <div style={{ width: "300px" }}>
+
+                      <div>{info.fecha}</div>
+
+                      <img style={{ width: "150px", position: "relative", top: "10px" }} src="https://firebasestorage.googleapis.com/v0/b/blog-46e71.appspot.com/o/portafolio%2Facademlo.jpg?alt=media&token=345a8306-5eb2-4fe0-a50f-2b5ecab88bfa" alt="" />
+                    </div>
+                    <div>
+                      <div className="contentInfo">
+                        <h4>{info.company}</h4>
+                        <h4>{info.position}</h4>
+                      </div>
+
+                      <br />
+                      <div className="contenSkills">
+                        {info.skills.map((info2) => {
+                          return <div className="contenSkill">
+                            {info2.name}
+                          </div>
+                        })
+                        }
+                      </div>
+
+                      <div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div className="face0 face2">
+                  <div className="contentBack">
+                    <p style={{ whiteSpace: "pre-wrap", textAlign:"justify" }}>{info.description}</p>
+                    <div  className="contentLinks">
+                      <div className="pointerCursor">
+                        <i className='bx bx-paper-plane bx-fade-right bx-md'></i>
+                      </div>
+                      <div className="contLinks">
+                        <i className='bx bx-link'><a href="https://certiwise.co">CertiWise</a></i>
+                        <i className='bx bx-link'><a href="https://certiwise.co/verify/14">certificate</a></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            );
+          })}
+        </div>
+
 
         <div ref={seccion2Ref} className="container">
           {data.español.projects.map((dat) => {
             return (
-                <div className="card">
-                  <div className="face0 face1">
-                    <div className="content0">
-                      <div>
-                        <img className="imgCo" src={`${dat.img_link}`} alt="" />
-                        <h3>{dat.title}</h3>
-                      </div>
-                      <div style={{ width:"100%", display:"flex", gap:"1rem"}}>
-                        {dat?.skill.map((ski)=>{
-                          return <div className="skil">{ski.name}</div>
-                        })}
-                      </div>
+              <div className="card">
+                <div className="face0 face1">
+                  <div className="content0">
+                    <div>
+                      <img className="imgCo" src={`${dat.img_link}`} alt="" />
+                      <h3>{dat.title}</h3>
                     </div>
-                  </div>
-                  <div className="face0 face2">
-                    <div className="">
-                      <p>{dat.description}</p>
-                      <a href="">read More</a>
+                    <div className="contentSkill">
+                      {dat?.skill.map((ski) => {
+                        return <div className="skil"><img className="skikImg" src={`${ski.name}`} alt="" /></div>
+                      })}
                     </div>
                   </div>
                 </div>
+                <div className="face0 face2">
+                  <div className="" style={{textAlign:"justify"}}>
+                    <p>{dat.description}</p>
+                  </div>
+                </div>
+              </div>
             );
           })}
         </div>
