@@ -32,8 +32,7 @@ const Computer = () => {
           <h1>Romario Ariza</h1>
           <h3>Full Stack Developer</h3>
           <div className="">
-            I build accessible, inclusive products and digital experiences for
-            the web.
+            {data.español.description.subDescription}
           </div>
 
           <div className="header">
@@ -137,12 +136,14 @@ const Computer = () => {
 
       <div className="sectionProyects">
         <div ref={seccion1Ref} className="text" style={{textAlign:"justify"}}>
+          <h3>about</h3>
           {data.español.description.description}
         </div>
 
 
 
         <div ref={seccion2Ref} className="container">
+        <h3>experience</h3>
           {data.español.experience.map((info) => {
             return (
               <div className="card">
@@ -198,6 +199,7 @@ const Computer = () => {
 
 
         <div ref={seccion2Ref} className="container">
+        <h3>Proyects</h3>
           {data.español.projects.map((dat) => {
             return (
               <div className="card">
