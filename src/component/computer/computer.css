@@ -355,7 +355,7 @@ html[data-theme="dark"] {
     }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1120px) {
     .proyect {
         position: relative;
         transform: scale(0.8);
