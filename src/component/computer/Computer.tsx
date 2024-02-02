@@ -40,6 +40,7 @@ const Computer = () => {
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(1)}
               onClick={() => {
+                setlineSelect(1);
                 scrollToSection(seccion1Ref);
               }}
               className={`${lineSelect == 1 ? "contentHeaderSelect" : "contentHeader"
@@ -60,7 +61,8 @@ const Computer = () => {
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(6)}
               onClick={() => {
-                // scrollToSection(seccion2Ref);
+                setlineSelect(2);
+                scrollToSection(seccion2Ref);
               }}
               className={`${lineSelect == 6 ? "contentHeaderSelect" : "contentHeader"
                 }`}
@@ -68,7 +70,7 @@ const Computer = () => {
               <div
                 className={`${lineHover == 6
                   ? "hoverline"
-                  : scrollY > 200 && scrollY < 1200
+                  : scrollY > 150 && scrollY < 600
                     ? "lineSelect"
                     : "line"
                   }`}
@@ -79,7 +81,8 @@ const Computer = () => {
               onMouseOut={() => setlineHover(0)}
               onMouseOver={() => setlineHover(2)}
               onClick={() => {
-                scrollToSection(seccion2Ref);
+                setlineSelect(3);
+                scrollToSection(seccion3Ref);
               }}
               className={`${lineSelect == 2 ? "contentHeaderSelect" : "contentHeader"
                 }`}
@@ -87,7 +90,7 @@ const Computer = () => {
               <div
                 className={`${lineHover == 2
                   ? "hoverline"
-                  : scrollY > 400 && scrollY < 2300
+                  : scrollY > 600 && scrollY < 2300
                     ? "lineSelect"
                     : "line"
                   }`}
@@ -107,7 +110,7 @@ const Computer = () => {
               <div
                 className={`${lineHover == 4
                   ? "hoverline"
-                  : scrollY > 2700
+                  : scrollY > 2500
                     ? "lineSelect"
                     : "line"
                   }`}
@@ -198,7 +201,7 @@ const Computer = () => {
         </div>
 
 
-        <div ref={seccion2Ref} className="container">
+        <div ref={seccion3Ref} className="container">
         <h3>Proyects</h3>
           {data.español.projects.map((dat) => {
             return (
@@ -226,7 +229,7 @@ const Computer = () => {
           })}
         </div>
 
-        <div className="contentSkills" ref={seccion3Ref}>
+        <div className="contentSkills">
           <Skils />
         </div>
 

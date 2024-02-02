@@ -10,7 +10,7 @@ $delay : $duration/6;
 }
 
 .body {
-  background-color: #1e6cc7;
+  background-color: #fdfeff;
   width: 100%;
   height: 1000px;
   margin: 0;
@@ -37,8 +37,8 @@ $delay : $duration/6;
   width: 40px;
   height: 120px;
   opacity: 0;
-  background-color: #1e6cc7;
-  border: $thickness solid white;
+  background-color: #000000;
+  border: $thickness solid rgb(78, 78, 78);
   transform-origin: bottom left;
   transform: translateX(300px);
   animation: travel #{$duration}ms linear infinite;

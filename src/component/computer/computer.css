@@ -1,47 +1,53 @@
 html {
-    --primary-color: rgb(6, 14, 57);
-    --secondary-color: #fff;
-    --color-tarjet: rgb(48, 48, 57);
-    --section-color: #042035;
-}
-
-html[data-theme="dark"] {
-    --primary-color: #4788b1;
+    --primary-color: #ffffff;
     --secondary-color: black;
     --color-tarjet: rgb(236, 232, 232);
     --section-color: #fff;
 }
 
+html[data-theme="dark"] {
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: #ffffff;
+    --color-tarjet: rgb(48, 48, 57);
+    --section-color: rgb(3, 3, 4);
+}
 
 
 .contComputer {
     transition: all 0.5s;
     animation: transition 0.1s ease-out forwards;
+    display: flex;
+    justify-content: end;
 }
 
 .fixedMe {
     position: fixed;
-    width: 50vw;
+    left: 0px;
+    width: 50%;
     height: 1000px;
     padding: 6rem;
-    z-index: 1
+    z-index: 1;
+    background-color: var(--section-color);
 }
 
+
+
 .noc {
-    position: relative;
-    left: 1vw;
-    z-index: 200;
+    position: absolute;
+    right: 6vw;
+    top: 120px;
 }
 
 .sectionProyects {
     position: relative;
-    left: 48.9vw;
     padding: 4vw;
     width: 50vw;
     height: 1200px;
     background-color: var(--section-color);
     min-height: 3750px;
 }
+
+
 
 .text {
     position: relative;
@@ -193,20 +199,19 @@ html[data-theme="dark"] {
 
 
 .container {
-    width: 700px;
+    width: 500px;
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    
+
 
     & .card {
         color: #000000;
         position: relative;
-        width: 600px;
+        width: 550px;
         min-height: 200px;
         padding: 30px;
-
 
         & .face0 {
             position: absolute;
@@ -245,7 +250,7 @@ html[data-theme="dark"] {
             transform-origin: top;
             transform: translateY(100%);
             border-radius: 10px;
-            
+
         }
     }
 
@@ -255,6 +260,7 @@ html[data-theme="dark"] {
         width: 500px;
     }
 }
+
 
 .card:hover .face0.face1 {
     transform: translateY(-100%) rotateX(90deg)
@@ -285,25 +291,25 @@ html[data-theme="dark"] {
     margin: 0 auto;
 }
 
-.skikImg
-{
+.skikImg {
     max-width: 90px;
     max-height: 80px;
 }
-.skil{
+
+.skil {
     display: flex;
     flex-flow: 100;
 
 }
 
 
-.cardExperience{
+.cardExperience {
     display: flex;
     padding: 1rem;
     height: 100%;
 }
 
-.contenSkill{
+.contenSkill {
     width: 100px;
     border: 1px solid black;
     height: 30px;
@@ -312,57 +318,36 @@ html[data-theme="dark"] {
     justify-content: center;
     border-radius: 5px;
 }
-.contenSkills{
+
+.contenSkills {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
 }
 
-.contentInfo{
+.contentInfo {
     display: flex;
     flex-direction: column;
 }
 
 
-.contentBack{
-}
 
 .contentLinks {
     width: 110px;
     position: absolute;
-    right:0px;
+    right: 0px;
 
-
-
-
-    /* & .links {
-        text-decoration: underline;
-
-        &:hover {
-            ~ .pointerCursor {
-                display: none;
-            }
-
-            ~ .contLinks {
-                display: block;
-                position: absolute;
-                left: 30px;
-            }
-        } */
-
-
-    }
 
     & .pointerCursor {
         position: absolute;
         left: -50px;
     }
 
-    & .contLinks:hover{
+    & .contLinks:hover {
         display: block;
     }
 }
-  
+
 
 @keyframes move-up4 {
     from {
@@ -379,5 +364,35 @@ html[data-theme="dark"] {
 
     .proyect:hover {
         transform: scale(0.9);
+    }
+
+    .noc {
+        right: 1vw;
+    }
+
+    .fixedMe {
+        width: 48%;
+    }
+
+    .sectionProyects {
+        width: 50vw;
+        left: -5vw;
+    }
+
+    .container {
+        width: 550px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+
+        & .card {
+            color: #000000;
+            position: relative;
+            width: 500px;
+            min-height: 200px;
+            padding: 30px;
+        }
     }
 }

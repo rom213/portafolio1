@@ -33,7 +33,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000;
 }
 
 
@@ -49,6 +48,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    & i{
+      color: #000000;
+    }
 }
 
 
